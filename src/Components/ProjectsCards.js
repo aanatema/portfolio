@@ -2,6 +2,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Badge from 'react-bootstrap/Badge';
 import Le_Chevalier_aux_Fleurs_1894_Georges_Rochegrosse_1859_1938 from '../Images/Le_Chevalier_aux_Fleurs_1894_Georges_Rochegrosse_1859_1938.jpg';
 
   function Cards(){
@@ -10,7 +11,7 @@ import Le_Chevalier_aux_Fleurs_1894_Georges_Rochegrosse_1859_1938 from '../Image
     const cardData = [
             { title: "Consonea", content: "Création d'un site de vente de meuble avec création d'une API et BDD", link:"/projects/consonea"},
             { title: "Choose your career", content: "Projet de visulalisation de données basé sur l'API de Pôle Emploi", link:"/projects/choose_your_career"},
-            { title: "Secret Santa", content: "Site permettant de tirer au sort les secret santa pour un évenement",link:"/projects/secret_santa"},
+            { title: "Secret Santa", content: "Site permettant de tirer au sort les secret santa pour un évenement.", status: "En cours", link:"/projects/secret_santa"},
             { title: "Pico Resto", content: "Jeu Pico8 s'inspirant du jeu 'overcooked' codé en LUA",link:"/projects/secret_santa"},
 
           ];
@@ -30,7 +31,7 @@ import Le_Chevalier_aux_Fleurs_1894_Georges_Rochegrosse_1859_1938 from '../Image
                 <Card style={cardStyle}>
                   <Card.Img style={{padding : "0.25em", borderRadius:"0.50em",}} variant="top" src={Le_Chevalier_aux_Fleurs_1894_Georges_Rochegrosse_1859_1938 }/>
                   <Card.Body>
-                    <Card.Title>{card.title}</Card.Title>
+                    <Card.Title>{card.title}</Card.Title><h4><Badge bg="secondary">{card.status}</Badge></h4>
                     <Card.Text>{card.content}</Card.Text>
                   </Card.Body>
                 </Card>
