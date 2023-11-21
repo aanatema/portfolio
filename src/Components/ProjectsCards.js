@@ -32,7 +32,6 @@ import Le_Chevalier_aux_Fleurs_1894_Georges_Rochegrosse_1859_1938 from '../Image
                   <Card.Body>
                     <Card.Title>{card.title}</Card.Title>
                     <Card.Text>{card.content}</Card.Text>
-                    <Button style={{borderRadius:"0.40em"}} variant="dark" href={card.link}>En savoir plus</Button>
                   </Card.Body>
                 </Card>
               </Col>
