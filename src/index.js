@@ -8,9 +8,7 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Projects from './Pages/Projects';
 import Resume from './Pages/Resume';
-import ProjectChooseYourCareer from './Pages/ProjectChooseYourCareer';
-import ProjectConsonea from './Pages/ProjectConsonea';
-import ProjectSecretSanta from './Pages/ProjectSecretSanta';
+
 
 
 //gère l'application
@@ -27,10 +25,6 @@ export default function App(){
         <Route path="contact" element={<Contact /> }/> 
         <Route path="projects" element={<Projects /> }/> 
         <Route path="resume" element={<Resume /> }/> 
-        {/* we create the individual projects routes */}
-        <Route path="projects/consonea" element={<ProjectConsonea /> }/> 
-        <Route path="projects/choose_your_career" element={<ProjectChooseYourCareer /> }/> 
-        <Route path="projects/secret_santa" element={<ProjectSecretSanta /> }/> 
       </Routes>
     </BrowserRouter>
 

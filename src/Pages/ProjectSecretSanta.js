@@ -1,5 +1,5 @@
 import NavBar from "../Components/Navbar"
-import ProjectsNavbar from "../Components/ProjectsNavbar"
+// import ProjectsNavbar from "../Components/ProjectsNavbar"
 
 function ProjectSecretSanta (){
     return (
@@ -8,7 +8,7 @@ function ProjectSecretSanta (){
         <div>
             <NavBar />
         </div>
-        <div><ProjectsNavbar /></div>
+        {/* <div><ProjectsNavbar /></div> */}
         </>
     )
 };
