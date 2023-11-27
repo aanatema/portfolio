@@ -6,9 +6,12 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Home from './Pages/HomePage';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
-import Projects from './Pages/Projects';
 import Resume from './Pages/Resume';
-
+import Projects from './Pages/Projects';
+import ProjectConsonea from './Pages/ProjectConsonea';
+import ProjectChooseYourCareer from './Pages/ProjectChooseYourCareer';
+import ProjectSecretSanta from './Pages/ProjectSecretSanta';
+import ProjectPicoResto from './Pages/ProjectPicoResto';
 
 
 //gère l'application
@@ -25,6 +28,12 @@ export default function App(){
         <Route path="contact" element={<Contact /> }/> 
         <Route path="projects" element={<Projects /> }/> 
         <Route path="resume" element={<Resume /> }/> 
+        {/* routes vers les détails des projets */}
+        <Route path="projects/consonea" element={<ProjectConsonea /> }/> 
+        <Route path="projects/choose_your_career" element={<ProjectChooseYourCareer /> }/> 
+        <Route path="projects/secret_santa" element={<ProjectSecretSanta /> }/> 
+        <Route path="projects/pico_resto" element={<ProjectPicoResto /> }/> 
+
       </Routes>
     </BrowserRouter>
 

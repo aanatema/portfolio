@@ -1,24 +1,39 @@
 //this page is for the main navbar of the site.
 
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import "../index.css";
 
 function NavBar() {
   return (
-      <Navbar bg="dark" data-bs-theme="dark" >
-        <Container>
-          <Navbar.Brand className="me-auto"  href="/"  style={{fontSize:"1.5em"}}>Romane Boireau</Navbar.Brand>
-          {/* m= margin / s=start set margin or padding LEFT or margin or padding START */}
-          <Nav className="ms-auto" style={{fontSize:"1.5em"}}>
-            <Nav.Link href="/about">A propos</Nav.Link>
-            <Nav.Link href="/projects">Projets</Nav.Link>
-            <Nav.Link href="/resume">CV</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
-          </Nav>
-        </Container>
+    <>
+      <Navbar collapseOnSelect expand="sm" className="title">
+        <Navbar.Toggle
+          aria-controls="navbarScroll"
+          data-bs-target="#navbarScroll"
+        />
+        <Navbar.Collapse id="navbarScroll">
+          <Container >
+            <Navbar.Brand className="romane_boireau" href="/">
+              ROMANE BOIREAU
+            </Navbar.Brand>
+            <Nav className="ms-auto">
+              <Nav.Link className="chapitre" href="/about">
+                A PROPOS
+              </Nav.Link>
+              <Nav.Link className="chapitre" href="/projects">
+                PROJETS
+              </Nav.Link>
+              <Nav.Link className="chapitre" href="/contact">
+                CONTACT
+              </Nav.Link>
+            </Nav>
+          </Container>
+        </Navbar.Collapse>
       </Navbar>
-      );
+    </>
+  );
 }
 
 export default NavBar;

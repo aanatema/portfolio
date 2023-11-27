@@ -1,41 +1,39 @@
-//this page will contain the details of the consonea project
 
 import NavBar from "../Components/Navbar";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Accordion from "react-bootstrap/Accordion";
-import Image from "react-bootstrap/Image";
-import consonea_mise_en_vente from "../Images/consonea_mise_en_vente.png";
+import pico_resto_start_screen from "../Images/pico_resto_start_screen.jpg";
 
-function ProjectConsonea() {
+function ProjectPicoResto() {
   return (
     <>
       <NavBar />
       <Container>
         <Row>
           <Col xs={12} sm={12} md={12} className="project_title">
-            <h1>CONSONEA</h1>
+            <h1>PICO RESTO</h1>
           </Col>
         </Row>
         <Row>
           <Col xs={12} className="project_subtitle">
-            <h3>Plateforme de vente de meubles</h3>
+            <h3>Mini jeu vidéo inspiré du jeu "Overcooked"</h3>
           </Col>
         </Row>
         {/* outils, conditions de travail, durée */}
         <Row xs={1} sm={1} md={2} lg={2} className="infos">
           <Col className="infos_solo">
-            <strong>EQUIPE :</strong> 9 personnes, répartition 4-5
+            <strong>EQUIPE :</strong> 4 personnes
           </Col>
           <Col className="infos_solo">
-            <strong>DUREE : </strong>2 semaines, 6 jours réels
+            <strong>DUREE : </strong>2 semaines, 5 jours réels
           </Col>
         </Row>
         <Row>
           <img
             className="img_project my-3"
-            src={consonea_mise_en_vente}
+            src={pico_resto_start_screen}
             fluid
           />
           <Col xs={12} md={12} className="description_projet mt-2"></Col>
@@ -47,12 +45,7 @@ function ProjectConsonea() {
                   <strong>OBJECTIFS</strong>
                 </Accordion.Header>
                 <Accordion.Body>
-                  Création d'un site e-commerce répondant aux besoins de
-                  Lauréline qui vient de monter son entreprise de vente de
-                  meuble d'occasion. Le projet se déroule sur 2 semaines avec
-                  pour seules contraintes de diviser l'équipe, une partie Front
-                  et une partie Back, et d'échanger les rôles lors de la
-                  deuxième semaine.
+                  Créer un petit jeu avec la "fantasy console" PICO-8. Pico Resto est le tout premier projet que auquel j'ai participé durant ma formation.
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
@@ -61,33 +54,7 @@ function ProjectConsonea() {
                   <strong>ORGANISATION</strong>
                 </Accordion.Header>
                 <Accordion.Body>
-                  Les choix d'organisation ont été décidés le premier jour du
-                  projet.<br></br>
-                  <br></br>
-                  <li>
-                    Discussion commune sur les technos et langages à utiliser,
-                    réflexion sur les besoins du Front afin de créer les appels
-                    API necessaires.{" "}
-                  </li>
-                  <br></br>
-                  <li>
-                    Division de l'équipe en deux : Back (4pers) et Front
-                    (5pers).
-                  </li>{" "}
-                  <br></br>
-                  <li>Installation commune et partage du repo Github.</li>
-                  <br></br>
-                  <li>
-                    Daily chaque matin pour échanger sur les objectifs de la
-                    journée.
-                  </li>{" "}
-                  <br></br>
-                  <li>
-                    Mise en place d'un Trello et d'un journal de bord pour
-                    chaque équipe afin de suivre les avancées et de faciliter la
-                    transition lors de la deuxième semaine.
-                  </li>
-                  <br></br>
+                Choix commun de l'équipe du thème : un food truck où le joueur contrôle son le ou la cuisinière sélectionné.e et doit préparer les commandes des clients.               <br></br>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="2">
@@ -95,18 +62,7 @@ function ProjectConsonea() {
                   <strong>TÂCHES</strong>
                 </Accordion.Header>
                 <Accordion.Body>
-                  SEMAINE 1 <br></br>
-                  <strong>Back :</strong> Création de la BDD avec mySQL,
-                  création du serveur avec Express.<br></br>
-                  <strong>Front :</strong> Création de la maquette, création des
-                  routes avec React, création du front.
-                  <br></br>
-                  <br></br>
-                  SEMAINE 2<br></br>
-                  <strong>Back :</strong> Création de l'API, mécanique d'inscription et
-                 de connexion<br></br>
-                  <strong>Front :</strong> Affichage des données de la BDD sur
-                  le site
+                 
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="3">
@@ -136,4 +92,4 @@ function ProjectConsonea() {
   );
 }
 
-export default ProjectConsonea;
+export default ProjectPicoResto;
