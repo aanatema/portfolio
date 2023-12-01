@@ -88,6 +88,9 @@ function ProjectConsonea() {
                     transition lors de la deuxième semaine.
                   </li>
                   <br></br>
+                  <li>
+                  Retro / Démo 
+                  </li>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="2">

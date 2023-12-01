@@ -1,10 +1,10 @@
-
 import NavBar from "../Components/Navbar";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Accordion from "react-bootstrap/Accordion";
 import pico_resto_start_screen from "../Images/pico_resto_start_screen.jpg";
+import Button from "react-bootstrap/Button";
 
 function ProjectPicoResto() {
   return (
@@ -36,6 +36,16 @@ function ProjectPicoResto() {
             src={pico_resto_start_screen}
             fluid
           />
+            <Row className="my-3">
+              <Button href="" variant="outline-success">
+                LE PROJET SUR GITHUB
+              </Button>
+            </Row>
+            <Row className="my-3">
+              <Button href="https://www.lexaloffle.com/bbs/?tid=53280" target="_blank" variant="outline-success">
+                JOUEZ AU JEU
+              </Button>
+            </Row>
           <Col xs={12} md={12} className="description_projet mt-2"></Col>
           <Col xs={12}>
             <Accordion className="accordion mb-5">
@@ -45,7 +55,8 @@ function ProjectPicoResto() {
                   <strong>OBJECTIFS</strong>
                 </Accordion.Header>
                 <Accordion.Body>
-                  Créer un petit jeu avec la "fantasy console" PICO-8. Pico Resto est le tout premier projet que auquel j'ai participé durant ma formation.
+                  Apprendre à coder en équipe, à se répartir les tâches, à
+                  découvrir comment se documenter sur un sujet, une techno.
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
@@ -54,7 +65,25 @@ function ProjectPicoResto() {
                   <strong>ORGANISATION</strong>
                 </Accordion.Header>
                 <Accordion.Body>
-                Choix commun de l'équipe du thème : un food truck où le joueur contrôle son le ou la cuisinière sélectionné.e et doit préparer les commandes des clients.               <br></br>
+                  <li>
+                    Discussion commune et choix du thème du jeu le premier jour
+                    : le/la joueur.euse contrôle un personnage qui doit préparer
+                    les commandes des clients et leur remettre dans un temps
+                    imparti.
+                  </li>
+
+                  <br></br>
+                  <li>Mise en place d'un trello</li>
+                  <br></br>
+                  <li>
+                    Découverte des ressources de manière individuelle, mise en
+                    commun de ce qui à été compris et ce qui a besoin
+                    d'approfondissement.
+                  </li>
+                  <br></br>
+                  <li>Code en mob et en pair-programming</li>
+                  <br></br>
+                  <li>Retro / Démo</li>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="2">
@@ -62,7 +91,15 @@ function ProjectPicoResto() {
                   <strong>TÂCHES</strong>
                 </Accordion.Header>
                 <Accordion.Body>
-                 
+                  SEMAINE 1 <br></br>
+                  Création du visuel du food truck, création des sprites des
+                  personnages jouables et des personnages non jouables.<br></br>
+                  Début des déplacements du personnage jouable et automatisation
+                  des mouvements des personnages non jouables<br></br>
+                  <br></br>
+                  SEMAINE 2<br></br>
+                  Ajout du timer, du score, des commandes aléatoires des
+                  clients, de la musique et des bruitages<br></br>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="3">
@@ -70,18 +107,16 @@ function ProjectPicoResto() {
                   <strong>RESULTATS ET AXES D'AMELIORATION</strong>
                 </Accordion.Header>
                 <Accordion.Body>
-                  L'inscritpion, le connexion, la déconnexion et la suppression
-                  de compte sont fonctionnels. Toutes les routes des pages
-                  fonctionnent. Les éléments présent dans la base de données
-                  s'affichent sur le site. La page "vendre un meuble" est
-                  fonctionnelle et le meuble créé apparaît bien sur la page
-                  d'accueil.
+                  Le jeu est fonctionnel, le personnage jouable ne peux pas
+                  sortir du cadre du food truck, le score s'incrémente bien en
+                  fonction des commandes données aux clients. La fin du timer
+                  déclenche bien la fin du jeu avec affichage du score. Il est
+                  impossible de donner une commande si elle n'est pas complète.
                   <br></br>
                   <br></br>
-                  L'affichage des articles ne suis pas la logique des trois
-                  premiers articles affichés. Lier la page admin où Lauréline
-                  accepte ou refuse la mise en vente d'un meuble. Renforcer la
-                  sécurité, notamment sur les mots de passe.
+                  Les commandes des clients sont toutes les mêmes sauf en
+                  quantité, changer le nombre d'ingrédients présents
+                  améliorerait la dynamique du jeu.
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
