@@ -7,44 +7,32 @@ import Col from "react-bootstrap/Col";
 import Accordion from "react-bootstrap/Accordion";
 import Image from "react-bootstrap/Image";
 import consonea_mise_en_vente from "../Images/consonea_mise_en_vente.png";
+import Button from "react-bootstrap/Button";
 
 function ProjectConsonea() {
   return (
     <>
       <NavBar />
-      <Container>
+      <Container className="mt-5">
+        <h1>CONSONEA</h1>
+        <h2>Plateforme de vente de meubles</h2>
+        <Button
+          className="me-4 my-4 "
+          href="https://github.com/aanatema"
+          target="_blank"
+          variant="outline-light"
+        >
+          LE PROJET SUR GITHUB
+        </Button>
         <Row>
-          <Col xs={12} sm={12} md={12} className="project_title">
-            <h1>CONSONEA</h1>
+          <Col className="my-5" xs={12} sm={12} md={12} lg={5}>
+            <Image src={consonea_mise_en_vente} fluid />
           </Col>
-        </Row>
-        <Row>
-          <Col xs={12} className="project_subtitle">
-            <h3>Plateforme de vente de meubles</h3>
-          </Col>
-        </Row>
-        {/* outils, conditions de travail, durée */}
-        <Row xs={1} sm={1} md={2} lg={2} className="infos">
-          <Col className="infos_solo">
-            <strong>EQUIPE :</strong> 9 personnes, répartition 4-5
-          </Col>
-          <Col className="infos_solo">
-            <strong>DUREE : </strong>2 semaines, 6 jours réels
-          </Col>
-        </Row>
-        <Row>
-          <img
-            className="img_project my-3"
-            src={consonea_mise_en_vente}
-            fluid
-          />
-          <Col xs={12} md={12} className="description_projet mt-2"></Col>
-          <Col xs={12}>
+          <Col className="" xs={12} sm={12} md={12} lg={7}>
             <Accordion className="accordion mb-5">
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
-                  {" "}
-                  <strong>OBJECTIFS</strong>
+                  <strong>CONTEXTE ET OBJECTIFS</strong>
                 </Accordion.Header>
                 <Accordion.Body>
                   Création d'un site e-commerce répondant aux besoins de
@@ -57,40 +45,28 @@ function ProjectConsonea() {
               </Accordion.Item>
               <Accordion.Item eventKey="1">
                 <Accordion.Header>
-                  {" "}
-                  <strong>ORGANISATION</strong>
+                  <strong>ORGANISATION ET TECHNOS</strong>
                 </Accordion.Header>
                 <Accordion.Body>
                   Les choix d'organisation ont été décidés le premier jour du
                   projet.<br></br>
                   <br></br>
-                  <li>
-                    Discussion commune sur les technos et langages à utiliser,
-                    réflexion sur les besoins du Front afin de créer les appels
-                    API necessaires.{" "}
-                  </li>
+                  Division de l'équipe en deux : Back (4pers) et Front (5pers).
                   <br></br>
-                  <li>
-                    Division de l'équipe en deux : Back (4pers) et Front
-                    (5pers).
-                  </li>{" "}
+                  Discussion commune sur les technos et langages à utiliser,
+                  réflexion sur les besoins du Front afin de créer les appels
+                  API necessaires.
                   <br></br>
-                  <li>Installation commune et partage du repo Github.</li>
+                  
+                  Installation commune et partage du repo Github.
                   <br></br>
-                  <li>
-                    Daily chaque matin pour échanger sur les objectifs de la
-                    journée.
-                  </li>{" "}
+                  Daily chaque matin pour échanger sur les objectifs de la
+                  journée. <br></br>
+                  Mise en place d'un Trello et d'un journal de bord pour chaque
+                  équipe afin de suivre les avancées et de faciliter la
+                  transition lors de la deuxième semaine.
                   <br></br>
-                  <li>
-                    Mise en place d'un Trello et d'un journal de bord pour
-                    chaque équipe afin de suivre les avancées et de faciliter la
-                    transition lors de la deuxième semaine.
-                  </li>
-                  <br></br>
-                  <li>
-                  Retro / Démo 
-                  </li>
+                  Retro / Démo
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="2">
@@ -106,8 +82,8 @@ function ProjectConsonea() {
                   <br></br>
                   <br></br>
                   SEMAINE 2<br></br>
-                  <strong>Back :</strong> Création de l'API, mécanique d'inscription et
-                 de connexion<br></br>
+                  <strong>Back :</strong> Création de l'API, mécanique
+                  d'inscription et de connexion<br></br>
                   <strong>Front :</strong> Affichage des données de la BDD sur
                   le site
                 </Accordion.Body>
@@ -132,6 +108,20 @@ function ProjectConsonea() {
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
+            <Button
+              className="mb-5 me-5"
+              href="/projects"
+              variant="outline-secondary"
+            >
+              Revenir aux projets
+            </Button>
+            <Button
+              className="mb-5 "
+              href="/projects/choose_your_career"
+              variant="outline-secondary"
+            >
+              Projet suivant
+            </Button>
           </Col>
         </Row>
       </Container>

@@ -7,7 +7,7 @@ import Badge from 'react-bootstrap/Badge';
   function Cards(){
     //tableau d'objects contenant les informations sur les différents projets
     const cardData = [
-            { title: "PICO RESTO", content: "Jeu Pico8 s'inspirant du jeu 'overcooked' codé en LUA",link:"projects/pico_resto",img :require('../Images/pico_resto_start_screen.jpg')},
+            { title: "PICO RESTO", content: "Jeu rétro Pico-8 codé en LUA",link:"projects/pico_resto",img :require('../Images/pico_resto_start_screen.jpg')},
             { title: "CONSONEA", content: "Création d'un site de vente de meuble avec création d'une API et BDD", link:"/projects/consonea", img:require('../Images/consonea_accueil1.png'), img2:require('../Images/consonea_mise_en_vente.png')},
             { title: "CHOOSE YOUR CAREER", content: "Projet de visualisation de données basé sur l'API de Pôle Emploi", link:"/projects/choose_your_career", img :require('../Images/cyc_result_44.png')},
             
