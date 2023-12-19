@@ -14,10 +14,12 @@ function ProjectConsonea() {
     <>
       <NavBar />
       <Container className="mt-5">
-        <h1>CONSONEA</h1>
-        <h2>Plateforme de vente de meubles</h2>
+      <div>
+          <h1 className="project_title">CONSONEA</h1>
+          <h2 className="project_subtitle">Site de vente de meubles</h2>
+        </div>
         <Button
-          className="me-4 my-4 "
+          className="me-4 mt-4 "
           href="https://github.com/aanatema"
           target="_blank"
           variant="outline-light"
@@ -25,7 +27,7 @@ function ProjectConsonea() {
           LE PROJET SUR GITHUB
         </Button>
         <Row>
-          <Col className="my-5" xs={12} sm={12} md={12} lg={5}>
+          <Col className="project_image my-5" xs={12} sm={12} md={12} lg={5}>
             <Image src={consonea_mise_en_vente} fluid />
           </Col>
           <Col className="" xs={12} sm={12} md={12} lg={7}>
@@ -111,14 +113,14 @@ function ProjectConsonea() {
             <Button
               className="mb-5 me-5"
               href="/projects"
-              variant="outline-secondary"
+              variant="outline-light"
             >
               Revenir aux projets
             </Button>
             <Button
               className="mb-5 "
               href="/projects/choose_your_career"
-              variant="outline-secondary"
+              variant="outline-light"
             >
               Projet suivant
             </Button>

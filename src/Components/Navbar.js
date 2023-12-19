@@ -8,29 +8,19 @@ import "../index.css";
 function NavBar() {
   return (
     <>
-      <Navbar collapseOnSelect expand="sm" className="title">
-        <Navbar.Toggle
-          aria-controls="navbarScroll"
-          data-bs-target="#navbarScroll"
-        />
-        <Navbar.Collapse id="navbarScroll">
-          <Container >
-            <Navbar.Brand className="romane_boireau" href="/">
-              ROMANE BOIREAU
-            </Navbar.Brand>
-            <Nav className="ms-auto">
-              <Nav.Link className="chapitre" href="/about">
-                A PROPOS
-              </Nav.Link>
-              <Nav.Link className="chapitre" href="/projects">
-                PROJETS
-              </Nav.Link>
-              <Nav.Link className="chapitre" href="/contact">
-                CONTACT
-              </Nav.Link>
+      <Navbar sticky='top' className="navabar" collapseOnSelect expand="md">
+        <Container>
+          <Navbar.Brand href="/">ROMANE BOIREAU</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="me-auto"></Nav>
+            <Nav className="navbarLinks">
+              <Nav.Link href="/about">A PROPOS</Nav.Link>
+              <Nav.Link href="/projects">PROJETS</Nav.Link>
+              <Nav.Link href="/contact">CONTACT</Nav.Link>
             </Nav>
-          </Container>
-        </Navbar.Collapse>
+          </Navbar.Collapse>
+        </Container>
       </Navbar>
     </>
   );

@@ -1,13 +1,12 @@
 import NavBar from "../Components/Navbar"
-import WipCard from "../Components/WipCard"
+import Description from "../Components/description";
+import "../index.css";
 
 function HomePage (){
-
-
     return (
         <>
         <NavBar /> 
-        <WipCard />
+        <Description />
         </>
 
  )

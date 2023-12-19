@@ -10,7 +10,7 @@ import Resume from './Pages/Resume';
 import Projects from './Pages/Projects';
 import ProjectConsonea from './Pages/ProjectConsonea';
 import ProjectChooseYourCareer from './Pages/ProjectChooseYourCareer';
-import ProjectSecretSanta from './Pages/ProjectSecretSanta';
+import ProjectSecretSanta from './Pages/ProjectKindGlyphs';
 import ProjectPicoResto from './Pages/ProjectPicoResto';
 
 
@@ -31,7 +31,7 @@ export default function App(){
         {/* routes vers les détails des projets */}
         <Route path="projects/consonea" element={<ProjectConsonea /> }/> 
         <Route path="projects/choose_your_career" element={<ProjectChooseYourCareer /> }/> 
-        <Route path="projects/secret_santa" element={<ProjectSecretSanta /> }/> 
+        <Route path="projects/kind_glyphs" element={<ProjectSecretSanta /> }/> 
         <Route path="projects/pico_resto" element={<ProjectPicoResto /> }/> 
 
       </Routes>
