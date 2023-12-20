@@ -22,7 +22,7 @@ function ContactInfo() {
 
   return (
     <Container>
-      <h1 className="mt-5 mb-3">Envie d'en savoir plus, laissez moi message !</h1>
+      <h1 md={6} lg={6}className="mt-5 mb-3">Envie d'échanger ? Laissez moi message !</h1>
       <Form noValidate validated={validated} onSubmit={handleSubmit}>
         <Row className="mt-5 g-2">
           <Col md>
@@ -39,7 +39,7 @@ function ContactInfo() {
                 placeholder="Leave a comment here"
               />
                <Form.Control.Feedback type="invalid">
-            N'oubliez pas de rentrer votre nom.
+               Veuillez vérifier votre nom.
           </Form.Control.Feedback>
             </FloatingLabel>
           </Col>
@@ -57,7 +57,7 @@ function ContactInfo() {
                 placeholder="Leave a comment here"
               />
                <Form.Control.Feedback type="invalid">
-            N'oubliez pas de rentrer votre prénom.
+               Veuillez vérifier votre prénom.
           </Form.Control.Feedback>
             </FloatingLabel>
           </Col>
@@ -73,9 +73,24 @@ function ContactInfo() {
               placeholder="name@example.com"
             />
              <Form.Control.Feedback type="invalid">
-            N'oubliez pas d'entrer votre adresse mail.
+            Veuillez vérifier votre adresse mail.
           </Form.Control.Feedback>
           </FloatingLabel>
+          <FloatingLabel
+              controlId="floatingTextarea"
+              label="Numéro de téléphone"
+              className="contact_infos mb-3"
+            >
+              <Form.Control
+                type="text"
+                className="contact_infos"
+                as="textarea"
+                placeholder="0612345678"
+              />
+              <Form.Control.Feedback type="invalid">
+            Veuillez vérifier votre numéro de téléphone
+          </Form.Control.Feedback>
+            </FloatingLabel>
           <FloatingLabel
             controlId="floatingTextarea"
             label="Votre message"
@@ -83,14 +98,14 @@ function ContactInfo() {
           >
             <Form.Control
               required
-              type="text"
+              type="tel"
               className="contact_infos"
               style={{ height: "200px" }}
               as="textarea"
               placeholder="Leave a comment here"
             />
              <Form.Control.Feedback type="invalid">
-            N'oubliez pas de rentrer votre message.
+            N'oubliez pas d'entrer votre message.
           </Form.Control.Feedback>
           </FloatingLabel>
         </Row>

@@ -62,7 +62,7 @@ function Description() {
               <span id="ada"> 4 jours entreprise </span> /
               <span id="ada"> vendredi école</span>.<br></br>
               <br></br>
-              Mes coordonnées sont{" "}
+              N'hésitez pas à me contacter, mes coordonnées sont{" "}
               <a href="/contact">
                 <span id="link">ici</span>
               </a>{" "}
