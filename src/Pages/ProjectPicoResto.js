@@ -1,10 +1,9 @@
 import NavBar from "../Components/Navbar";
+import PRCarousel from "../Components/PRCarousel";
 import Container from "react-bootstrap/Container";
-import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Accordion from "react-bootstrap/Accordion";
-import pico_resto_start_screen from "../Images/pico_resto_start_screen.jpg";
 import Button from "react-bootstrap/Button";
 
 function ProjectPicoResto() {
@@ -12,7 +11,7 @@ function ProjectPicoResto() {
     <>
       <NavBar />
       <Container className="mt-5">
-      <div>
+        <div>
           <h1 className="project_title">PICO RESTO</h1>
           <h2 className="project_subtitle">Mini jeu rétro avec PICO-8</h2>
         </div>
@@ -34,7 +33,7 @@ function ProjectPicoResto() {
         </Button>
         <Row>
           <Col className="project_image my-5" xs={12} sm={12} md={12} lg={5}>
-            <Image src={pico_resto_start_screen} fluid />
+            <PRCarousel></PRCarousel>
           </Col>
           <Col className="" xs={12} sm={12} md={12} lg={7}>
             <Accordion className="accordion mb-5">
@@ -92,10 +91,18 @@ function ProjectPicoResto() {
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
-            <Button className="mb-5 me-5" href="/projects" variant="outline-light">
+            <Button
+              className="mb-5 me-5"
+              href="/projects"
+              variant="outline-light"
+            >
               Revenir aux projets
             </Button>
-            <Button className="mb-5 " href="/projects/consonea" variant="outline-light">
+            <Button
+              className="mb-5 "
+              href="/projects/consonea"
+              variant="outline-light"
+            >
               Projet suivant
             </Button>
           </Col>

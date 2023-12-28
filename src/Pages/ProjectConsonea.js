@@ -1,6 +1,7 @@
 //this page will contain the details of the consonea project
 
 import NavBar from "../Components/Navbar";
+import CCarousel from "../Components/CCarousel";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -28,7 +29,7 @@ function ProjectConsonea() {
         </Button>
         <Row>
           <Col className="project_image my-5" xs={12} sm={12} md={12} lg={5}>
-            <Image src={consonea_mise_en_vente} fluid />
+            <CCarousel/>
           </Col>
           <Col className="" xs={12} sm={12} md={12} lg={7}>
             <Accordion className="accordion mb-5">

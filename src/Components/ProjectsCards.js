@@ -13,7 +13,7 @@ function Cards() {
       cat: "Projet d'école",
       content: "Jeu rétro Pico-8 codé en LUA",
       link: "projects/pico_resto",
-      img: require("../Images/pico_resto_start_screen.jpg"),
+      img: require("../Images/2.png"),
     },
     {
       title: "CONSONEA",
@@ -21,8 +21,7 @@ function Cards() {
       content:
         "Création d'un site de vente de meuble avec création d'une API et BDD",
       link: "/projects/consonea",
-      img: require("../Images/consonea_accueil1.png"),
-      img2: require("../Images/consonea_mise_en_vente.png"),
+      img: require("../Images/1.png"),
     },
     {
       title: "CHOOSE YOUR CAREER",
@@ -30,7 +29,7 @@ function Cards() {
       content:
         "Projet de visualisation de données basé sur l'API de Pôle Emploi",
       link: "/projects/choose_your_career",
-      img: require("../Images/cyc_result_44.png"),
+      img: require("../Images/3.png"),
     },
 
     {
@@ -39,7 +38,15 @@ function Cards() {
       cat: "Projet personnel",
       status: "En cours",
       link: "/projects/kind_glyphs",
-      img: require("../Images/Le_Chevalier_aux_Fleurs_1894_Georges_Rochegrosse_1859_1938.jpg"),
+      img: require("../Images/4.png"),
+    },
+    {
+      title: "PORTFOLIO",
+      content: "Portfolio ayant pour but de me familiariser avec React",
+      cat: "Projet personnel",
+      status: "En cours",
+      link: "/projects/portfolio",
+      img: require("../Images/5.png"),
     },
   ];
 

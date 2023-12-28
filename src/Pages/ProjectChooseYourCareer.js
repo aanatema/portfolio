@@ -1,11 +1,10 @@
 //this page will contain the details of the choose your career project
 import NavBar from "../Components/Navbar";
+import CYCCarousel from "../Components/CYCCarousel";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Accordion from "react-bootstrap/Accordion";
-import Image from "react-bootstrap/Image";
-import cyc_result_44 from "../Images/cyc_result_44.png";
 import Button from "react-bootstrap/Button";
 
 function ProjectChooseYourCareer() {
@@ -28,7 +27,7 @@ function ProjectChooseYourCareer() {
         <div className="mt-5">
           <Row>
             <Col className="project_image " xs={12} sm={12} md={12} lg={5}>
-              <Image src={cyc_result_44} fluid />
+              <CYCCarousel></CYCCarousel>
             </Col>
             <Col className="" xs={12} sm={12} md={12} lg={7}>
               <Accordion className="accordion mb-5">
@@ -76,8 +75,16 @@ function ProjectChooseYourCareer() {
                     séléctionner ou déselctionner les données sur les
                     graphiques.
                     <br></br>
-                    Mettre une image en temps que placeholder lorsqu'il n'y a
-                    pas de graphiques, ajouter un loading.
+                    Ôter les cases vides lorsqu'il n'y a pas encore de réultats
+                    à afficher.
+                    <br></br>
+                    Rendre fonctionnels les filtres de recherche.
+                    <br></br>
+                    Ajouter une icône de chargement le temps que les données
+                    s'affichent
+                    <br></br>
+                    Ajouter d'autres API en plus de celle de Pôle Emploi pour
+                    avoir des données plus exactes.
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
@@ -89,22 +96,24 @@ function ProjectChooseYourCareer() {
                 Revenir aux projets
               </Button>
             </Col>
-            <Col>
-              <Button
-                className="mb-5 me-4 "
-                href="/projects/kind_glyphs"
-                variant="outline-light"
-              >
-                Projet précédant
-              </Button>
-              <Button
-                className="mb-5 "
-                href="/projects/kind_glyphs"
-                variant="outline-light"
-              >
-                Projet suivant
-              </Button>
-            </Col>
+            <Row>
+              <Col>
+                <Button
+                  className="mb-5 me-4 "
+                  href="/projects/kind_glyphs"
+                  variant="outline-light"
+                >
+                  Projet précédant
+                </Button>
+                <Button
+                  className="mb-5 "
+                  href="/projects/kind_glyphs"
+                  variant="outline-light"
+                >
+                  Projet suivant
+                </Button>
+              </Col>
+            </Row>
           </Row>
         </div>
       </Container>
