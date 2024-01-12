@@ -91,7 +91,7 @@ function ProjectChooseYourCareer() {
               </Accordion>
               <Button
               className="mb-4 me-4 "
-              href="/projects/kind_glyphs"
+              href="/projects/consonea"
               variant="outline-warning"
             >
               Projet précédant

@@ -68,14 +68,14 @@ function ProjectKindGlyphs() {
             </Accordion>
             <Button
               className="mb-4 me-4 "
-              href="/projects/kind_glyphs"
+              href="/projects/choose_your_career"
               variant="outline-warning"
             >
               Projet précédant
             </Button>
             <Button
               className="mb-4 "
-              href="/projects/kind_glyphs"
+              href="/projects/portfolio"
               variant="outline-warning"
             >
               Projet suivant

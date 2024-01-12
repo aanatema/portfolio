@@ -101,7 +101,7 @@ function ProjectPicoResto() {
             </Button>
             <Button
               className="mb-4 "
-              href="/projects/kind_glyphs"
+              href="/projects/consonea"
               variant="outline-warning"
             >
               Projet suivant
