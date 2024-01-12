@@ -18,9 +18,9 @@ function ProjectPicoResto() {
         </div>
         <Button
           className="me-4 mt-4 "
-          href="https://github.com/aanatema"
+          href="https://github.com/https://github.com/aanatema/projet-collectif-pico-8-pico-resto"
           target="_blank"
-          variant="outline-light"
+          variant="outline-warning"
         >
           LE PROJET SUR GITHUB
         </Button>
@@ -28,7 +28,7 @@ function ProjectPicoResto() {
           className="me-4 mt-4 "
           href="https://www.lexaloffle.com/bbs/?tid=53280"
           target="_blank"
-          variant="outline-success"
+          variant="warning"
         >
           JOUER AU JEU
         </Button>
@@ -96,7 +96,7 @@ function ProjectPicoResto() {
             <Button
               className="mb-5 "
               href="/projects/consonea"
-              variant="outline-light"
+              variant="outline-warning"
             >
               Projet suivant
             </Button>

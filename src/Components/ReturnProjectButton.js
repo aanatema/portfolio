@@ -1,9 +1,10 @@
-import { Button } from "react-bootstrap";
-
+import Button from "react-bootstrap/Button";
 function ReturnProjectButton() {
-  <Button  href="/projects" variant="outline-warning">
+  return(
+  <Button  href="/projects"  className="mb-5 me-4 "  variant="outline-warning">
     Revenir aux projets
-  </Button>;
+  </Button>
+  )
 }
 
 export default ReturnProjectButton;
