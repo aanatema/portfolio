@@ -7,6 +7,7 @@ import Col from "react-bootstrap/Col";
 import Accordion from "react-bootstrap/Accordion";
 import Button from "react-bootstrap/Button";
 import ReturnProjectButton from "../Components/ReturnProjectButton";
+import "../index.css";
 
 function ProjectChooseYourCareer() {
   return (
@@ -30,23 +31,23 @@ function ProjectChooseYourCareer() {
             <Col className="project_image " xs={12} sm={12} md={12} lg={5}>
               <CYCCarousel></CYCCarousel>
             </Col>
-            <Col className="" xs={12} sm={12} md={12} lg={7}>
-              <Accordion className="accordion mb-5">
-                <Accordion.Item eventKey="0">
-                  <Accordion.Header>
+            <Col xs={12} sm={12} md={12} lg={7}>
+              <Accordion className="accordion mb-5" flush defaultActiveKey="0">
+                <Accordion.Item eventKey="0" className="accordion">
+                  <Accordion.Header className="accordion">
                     <strong>CONTEXTE ET OBJECTIFS</strong>
                   </Accordion.Header>
-                  <Accordion.Body>
+                  <Accordion.Body className="accordion">
                     Comprendre le fonctionnement d'une API en faisant des appels
                     API.<br></br> Afficher les données récupérées avec{" "}
                     <strong>Chart.js</strong>.
                   </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey="1">
+                <Accordion.Item eventKey="1" className="accordion">
                   <Accordion.Header>
                     <strong>ORGANISATION</strong>
                   </Accordion.Header>
-                  <Accordion.Body>
+                  <Accordion.Body className="accordion">
                     Code en solo, pair et mob programming avec code review
                     régulier.<br></br>
                     Utilisation de trello pour se répartir les tâches et
@@ -56,21 +57,21 @@ function ProjectChooseYourCareer() {
                     besoins particuliers qui ressortent.<br></br>
                   </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey="2">
+                <Accordion.Item eventKey="2" className="accordion">
                   <Accordion.Header>
                     <strong>TECHNOS</strong>
                   </Accordion.Header>
-                  <Accordion.Body>
+                  <Accordion.Body className="accordion">
                     <strong>Langages :</strong> HTML, CSS, JavaScript <br></br>
                     <strong>Technos :</strong> Chart.js, API Pôle Emploi,
                     Postman
                   </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey="3">
+                <Accordion.Item eventKey="3" className="accordion">
                   <Accordion.Header>
                     <strong>RESULTATS ET AXES D'AMELIORATION</strong>
                   </Accordion.Header>
-                  <Accordion.Body>
+                  <Accordion.Body className="accordion">
                     La barre de recherche est fonctionnelle, les résultats
                     affichés sont bien ceux des département recherchés. On peut
                     séléctionner ou déselctionner les données sur les

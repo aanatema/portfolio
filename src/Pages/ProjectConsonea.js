@@ -33,12 +33,12 @@ function ProjectConsonea() {
             <CCarousel />
           </Col>
           <Col className="" xs={12} sm={12} md={12} lg={7}>
-            <Accordion className="accordion mb-5">
-              <Accordion.Item eventKey="0">
+            <Accordion className="accordion mb-5" flush defaultActiveKey="0">
+              <Accordion.Item eventKey="0" className="accordion">
                 <Accordion.Header>
                   <strong>CONTEXTE ET OBJECTIFS</strong>
                 </Accordion.Header>
-                <Accordion.Body>
+                <Accordion.Body className="accordion">
                   Création d'un site e-commerce répondant aux besoins de
                   Lauréline qui vient de monter son entreprise de vente de
                   meuble d'occasion. Le projet se déroule sur 2 semaines avec
@@ -47,11 +47,11 @@ function ProjectConsonea() {
                   deuxième semaine.
                 </Accordion.Body>
               </Accordion.Item>
-              <Accordion.Item eventKey="1">
+              <Accordion.Item eventKey="1" className="accordion">
                 <Accordion.Header>
                   <strong>ORGANISATION ET TECHNOS</strong>
                 </Accordion.Header>
-                <Accordion.Body>
+                <Accordion.Body className="accordion">
                   Les choix d'organisation ont été décidés le premier jour du
                   projet.<br></br>
                   <br></br>
@@ -72,11 +72,11 @@ function ProjectConsonea() {
                   Retro / Démo
                 </Accordion.Body>
               </Accordion.Item>
-              <Accordion.Item eventKey="2">
+              <Accordion.Item eventKey="2" className="accordion">
                 <Accordion.Header>
                   <strong>TÂCHES</strong>
                 </Accordion.Header>
-                <Accordion.Body>
+                <Accordion.Body className="accordion">
                   SEMAINE 1 <br></br>
                   <strong>Back :</strong> Création de la BDD avec mySQL,
                   création du serveur avec Express.<br></br>
@@ -91,11 +91,11 @@ function ProjectConsonea() {
                   le site
                 </Accordion.Body>
               </Accordion.Item>
-              <Accordion.Item eventKey="3">
+              <Accordion.Item eventKey="3" className="accordion">
                 <Accordion.Header>
                   <strong>RESULTATS ET AXES D'AMELIORATION</strong>
                 </Accordion.Header>
-                <Accordion.Body>
+                <Accordion.Body className="accordion">
                   L'inscritpion, le connexion, la déconnexion et la suppression
                   de compte sont fonctionnels. Toutes les routes des pages
                   fonctionnent. Les éléments présent dans la base de données

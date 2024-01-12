@@ -37,32 +37,32 @@ function ProjectPicoResto() {
             <PRCarousel></PRCarousel>
           </Col>
           <Col className="" xs={12} sm={12} md={12} lg={7}>
-            <Accordion className="accordion mb-5">
-              <Accordion.Item eventKey="0">
+            <Accordion className="accordion mb-5" defaultActiveKey="0" flush>
+              <Accordion.Item eventKey="0" className="accordion">
                 <Accordion.Header>
                   <strong>CONTEXTE ET OBJECTIFS</strong>
                 </Accordion.Header>
-                <Accordion.Body>
+                <Accordion.Body className="accordion">
                   Premier projet de l'année.<br></br>
                   Découvrir un premier langage (LUA), apprendre à coder en mob
                   programming, à se documenter.
                 </Accordion.Body>
               </Accordion.Item>
-              <Accordion.Item eventKey="1">
+              <Accordion.Item eventKey="1" className="accordion">
                 <Accordion.Header>
                   <strong>ORGANISATION ET TECHNOS</strong>
                 </Accordion.Header>
-                <Accordion.Body>
+                <Accordion.Body className="accordion">
                   Code en mob et pair programming. <br></br>
                   Trello et code review en fin de journée.<br></br>
                   Langage <strong>LUA</strong> via la fantasy console PICO-8.
                 </Accordion.Body>
               </Accordion.Item>
-              <Accordion.Item eventKey="2">
+              <Accordion.Item eventKey="2" className="accordion">
                 <Accordion.Header>
                   <strong>TÂCHES</strong>
                 </Accordion.Header>
-                <Accordion.Body>
+                <Accordion.Body className="accordion">
                   SEMAINE 1 <br></br>
                   Création du visuel du food truck, création des sprites des
                   personnages jouables et des personnages non jouables.<br></br>
@@ -74,11 +74,11 @@ function ProjectPicoResto() {
                   clients, de la musique et des bruitages<br></br>
                 </Accordion.Body>
               </Accordion.Item>
-              <Accordion.Item eventKey="3">
+              <Accordion.Item eventKey="3" className="accordion">
                 <Accordion.Header>
                   <strong>RESULTATS ET AXES D'AMELIORATION</strong>
                 </Accordion.Header>
-                <Accordion.Body>
+                <Accordion.Body className="accordion">
                   Le jeu est fonctionnel, le personnage jouable ne peux pas
                   sortir du cadre du food truck, le score s'incrémente bien en
                   fonction des commandes données aux clients. La fin du timer
