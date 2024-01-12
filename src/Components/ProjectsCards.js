@@ -11,7 +11,7 @@ function Cards() {
     {
       title: "PICO RESTO",
       cat: "Projet d'école",
-      content: "Jeu rétro Pico-8 codé en LUA",
+      content: "Jeu rétro Pico-8 codé en LUA. Tout premier projet.",
       link: "projects/pico_resto",
       img: require("../Images/2.png"),
     },

@@ -1,5 +1,5 @@
 import NavBar from "../Components/Navbar";
-import Description from "../Components/description";
+import Description from "../Components/Description";
 
 function About() {
   return (
