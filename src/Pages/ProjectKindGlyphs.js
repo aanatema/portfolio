@@ -18,7 +18,7 @@ function ProjectKindGlyphs() {
         </div>
         <Button
           className="me-4 mt-4  "
-          href="https://github.com/aanatema"
+          href="https://github.com/aanatema/kind_glyphs"
           target="_blank"
           variant="outline-light"
         >

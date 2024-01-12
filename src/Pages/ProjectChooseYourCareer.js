@@ -18,7 +18,7 @@ function ProjectChooseYourCareer() {
         </div>
         <Button
           className="me-4 mt-4 "
-          href="https://github.com/aanatema"
+          href="https://github.com/aanatema/projet-collectif-dataviz-myriam-romane-bradley-mehdi"
           target="_blank"
           variant="outline-light"
         >

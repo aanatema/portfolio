@@ -21,7 +21,7 @@ function ProjectConsonea() {
         </div>
         <Button
           className="me-4 mt-4 "
-          href="https://github.com/aanatema"
+          href="https://github.com/aanatema/projet-collectif-site-e-commerce-de-mobilier-Consonea"
           target="_blank"
           variant="outline-light"
         >

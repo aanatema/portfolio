@@ -7,7 +7,6 @@ import Cards from "../Components/ProjectsCards";
 function Projects (){
     return (
         <> 
-        {/* the <> allows several components to coexist in the same page*/}
         <NavBar />
         <Cards />
         
