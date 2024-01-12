@@ -5,6 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Accordion from "react-bootstrap/Accordion";
 import Button from "react-bootstrap/Button";
+import ReturnProjectButton from "../Components/ReturnProjectButton";
 
 function ProjectPicoResto() {
   return (
@@ -91,13 +92,7 @@ function ProjectPicoResto() {
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
-            <Button
-              className="mb-5 me-5"
-              href="/projects"
-              variant="outline-light"
-            >
-              Revenir aux projets
-            </Button>
+            <ReturnProjectButton></ReturnProjectButton>
             <Button
               className="mb-5 "
               href="/projects/consonea"

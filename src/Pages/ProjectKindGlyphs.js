@@ -6,6 +6,7 @@ import Accordion from "react-bootstrap/Accordion";
 import Image from "react-bootstrap/Image";
 import an_allegory_of_victory from "../Images/an_allegory_of_victory.jpg";
 import Button from "react-bootstrap/Button";
+import ReturnProjectButton from "../Components/ReturnProjectButton";
 
 function ProjectKindGlyphs() {
   return (
@@ -65,13 +66,7 @@ function ProjectKindGlyphs() {
                 <Accordion.Body>En cours...</Accordion.Body>
               </Accordion.Item>
             </Accordion>
-            <Button
-              className="mb-5 me-5"
-              href="/projects"
-              variant="outline-light"
-            >
-              Revenir aux projets
-            </Button>
+            <ReturnProjectButton></ReturnProjectButton>
             <Button
               className="mb-5 "
               href="/projects/pico_resto"

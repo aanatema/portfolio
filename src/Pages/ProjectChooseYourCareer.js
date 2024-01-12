@@ -6,6 +6,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Accordion from "react-bootstrap/Accordion";
 import Button from "react-bootstrap/Button";
+import ReturnProjectButton from "../Components/ReturnProjectButton";
 
 function ProjectChooseYourCareer() {
   return (
@@ -80,37 +81,33 @@ function ProjectChooseYourCareer() {
                     <br></br>
                     Rendre fonctionnels les filtres de recherche.
                     <br></br>
-                    Ajouter une icône de chargement le temps que les données s'affichent
+                    Ajouter une icône de chargement le temps que les données
+                    s'affichent
                     <br></br>
-                    Ajouter d'autres API en plus de celle de Pôle Emploi pour avoir des données plus exactes.
+                    Ajouter d'autres API en plus de celle de Pôle Emploi pour
+                    avoir des données plus exactes.
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
-              <Button
-                className="mb-5 me-5"
-                href="/projects"
-                variant="outline-light"
-              >
-                Revenir aux projets
-              </Button>
+              <ReturnProjectButton></ReturnProjectButton>
             </Col>
             <Row>
-            <Col>
-              <Button
-                className="mb-5 me-4 "
-                href="/projects/kind_glyphs"
-                variant="outline-light"
-              >
-                Projet précédant
-              </Button>
-              <Button
-                className="mb-5 "
-                href="/projects/kind_glyphs"
-                variant="outline-light"
-              >
-                Projet suivant
-              </Button>
-            </Col>
+              <Col>
+                <Button
+                  className="mb-5 me-4 "
+                  href="/projects/kind_glyphs"
+                  variant="outline-light"
+                >
+                  Projet précédant
+                </Button>
+                <Button
+                  className="mb-5 "
+                  href="/projects/kind_glyphs"
+                  variant="outline-light"
+                >
+                  Projet suivant
+                </Button>
+              </Col>
             </Row>
           </Row>
         </div>

@@ -9,13 +9,14 @@ import Accordion from "react-bootstrap/Accordion";
 import Image from "react-bootstrap/Image";
 import consonea_mise_en_vente from "../Images/consonea_mise_en_vente.png";
 import Button from "react-bootstrap/Button";
+import ReturnProjectButton from "../Components/ReturnProjectButton";
 
 function ProjectConsonea() {
   return (
     <>
       <NavBar />
       <Container className="mt-5">
-      <div>
+        <div>
           <h1 className="project_title">CONSONEA</h1>
           <h2 className="project_subtitle">Site de vente de meubles</h2>
         </div>
@@ -29,7 +30,7 @@ function ProjectConsonea() {
         </Button>
         <Row>
           <Col className="project_image my-5" xs={12} sm={12} md={12} lg={5}>
-            <CCarousel/>
+            <CCarousel />
           </Col>
           <Col className="" xs={12} sm={12} md={12} lg={7}>
             <Accordion className="accordion mb-5">
@@ -60,7 +61,6 @@ function ProjectConsonea() {
                   réflexion sur les besoins du Front afin de créer les appels
                   API necessaires.
                   <br></br>
-                  
                   Installation commune et partage du repo Github.
                   <br></br>
                   Daily chaque matin pour échanger sur les objectifs de la
@@ -111,13 +111,7 @@ function ProjectConsonea() {
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
-            <Button
-              className="mb-5 me-5"
-              href="/projects"
-              variant="outline-light"
-            >
-              Revenir aux projets
-            </Button>
+            <ReturnProjectButton></ReturnProjectButton>
             <Button
               className="mb-5 "
               href="/projects/choose_your_career"
