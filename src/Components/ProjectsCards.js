@@ -11,7 +11,7 @@ function Cards() {
     {
       title: "PICO RESTO",
       cat: "Projet d'école",
-      content: "Jeu rétro Pico-8 codé en LUA. Tout premier projet.",
+      content: "Jeu rétro Pico-8 codé en LUA. Tout premier projet de la formation",
       link: "projects/pico_resto",
       img: require("../Images/2.png"),
     },
@@ -42,23 +42,13 @@ function Cards() {
     },
     {
       title: "PORTFOLIO",
-      content: "Portfolio ayant pour but de me familiariser avec React",
+      content: "Portfolio ayant pour but d'approfondir ce que j'ai pu déjà tester avec React lors du projet Consonea",
       cat: "Projet personnel",
       status: "En cours",
       link: "/projects/portfolio",
       img: require("../Images/5.png"),
     },
   ];
-
-  const cardStyle = {
-    margin: "1rem",
-    padding: ".25rem",
-  };
-
-  const imgStyle1 = {
-    // padding : "0.25em",
-    borderRadiusTop: "0.50em",
-  };
 
   return (
     <Row xs={1} md={2} lg={3} className="mx-4 my-4">
