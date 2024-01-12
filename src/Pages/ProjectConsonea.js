@@ -24,7 +24,7 @@ function ProjectConsonea() {
           className="me-4 mt-4 "
           href="https://github.com/aanatema/projet-collectif-site-e-commerce-de-mobilier-Consonea"
           target="_blank"
-          variant="outline-light"
+          variant="outline-warning"
         >
           LE PROJET SUR GITHUB
         </Button>
@@ -111,14 +111,23 @@ function ProjectConsonea() {
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
-            <ReturnProjectButton></ReturnProjectButton>
             <Button
-              className="mb-5 "
-              href="/projects/choose_your_career"
-              variant="outline-light"
+              className="mb-4 me-4 "
+              href="/projects/kind_glyphs"
+              variant="outline-warning"
+            >
+              Projet précédant
+            </Button>
+            <Button
+              className="mb-4 "
+              href="/projects/kind_glyphs"
+              variant="outline-warning"
             >
               Projet suivant
             </Button>
+          </Col>
+          <Col>
+            <ReturnProjectButton></ReturnProjectButton>
           </Col>
         </Row>
       </Container>

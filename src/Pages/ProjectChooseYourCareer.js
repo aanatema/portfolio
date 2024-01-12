@@ -21,7 +21,7 @@ function ProjectChooseYourCareer() {
           className="me-4 mt-4 "
           href="https://github.com/aanatema/projet-collectif-dataviz-myriam-romane-bradley-mehdi"
           target="_blank"
-          variant="outline-light"
+          variant="outline-warning"
         >
           LE PROJET SUR GITHUB
         </Button>
@@ -89,26 +89,24 @@ function ProjectChooseYourCareer() {
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
-              <ReturnProjectButton></ReturnProjectButton>
-            </Col>
-            <Row>
-              <Col>
-                <Button
-                  className="mb-5 me-4 "
-                  href="/projects/kind_glyphs"
-                  variant="outline-light"
-                >
-                  Projet précédant
-                </Button>
-                <Button
-                  className="mb-5 "
-                  href="/projects/kind_glyphs"
-                  variant="outline-light"
-                >
-                  Projet suivant
-                </Button>
-              </Col>
-            </Row>
+              <Button
+              className="mb-4 me-4 "
+              href="/projects/kind_glyphs"
+              variant="outline-warning"
+            >
+              Projet précédant
+            </Button>
+            <Button
+              className="mb-4 "
+              href="/projects/kind_glyphs"
+              variant="outline-warning"
+            >
+              Projet suivant
+            </Button>
+          </Col>
+          <Col>
+            <ReturnProjectButton></ReturnProjectButton>
+          </Col>
           </Row>
         </div>
       </Container>

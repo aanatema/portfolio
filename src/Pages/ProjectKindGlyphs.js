@@ -66,14 +66,23 @@ function ProjectKindGlyphs() {
                 <Accordion.Body>En cours...</Accordion.Body>
               </Accordion.Item>
             </Accordion>
-            <ReturnProjectButton></ReturnProjectButton>
             <Button
-              className="mb-5 "
-              href="/projects/pico_resto"
-              variant="outline-light"
+              className="mb-4 me-4 "
+              href="/projects/kind_glyphs"
+              variant="outline-warning"
+            >
+              Projet précédant
+            </Button>
+            <Button
+              className="mb-4 "
+              href="/projects/kind_glyphs"
+              variant="outline-warning"
             >
               Projet suivant
             </Button>
+          </Col>
+          <Col>
+            <ReturnProjectButton></ReturnProjectButton>
           </Col>
         </Row>
       </Container>
