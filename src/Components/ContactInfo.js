@@ -9,11 +9,11 @@ import emailjs from '@emailjs/browser';
 import "../index.css";
 
 function ContactInfo() {
- 
-  const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+    const form = useRef();
+  
+    const sendEmail = (e) => {
+      e.preventDefault();
 
     emailjs.sendForm(
         "service_39lsro9",
@@ -28,8 +28,10 @@ function ContactInfo() {
           console.log(error.text);
         }
       );
+      //permet de refresh le formulaire une fois celui ci envoyé
+      //onClick sur le bouton ne marche pas, il efface les données avant qu'elles aient pu être envoyées
+      form.current.reset()
   };
-
   return (
     <Container>
       <h1 md={6} lg={6} className="mt-5 mb-3">
@@ -126,13 +128,12 @@ function ContactInfo() {
             </Form.Control.Feedback>
           </FloatingLabel>
         </Row>
-        <Button className="submit_btn mt-4" onClick={() => window.location.reload(false)} type="submit" value="Send">
+        <Button className="mt-4" type="submit" value="Send" variant="warning">
           Envoyer
         </Button>
       </Form>
     </Container>
   
   );
-  
 }
 export default ContactInfo;
