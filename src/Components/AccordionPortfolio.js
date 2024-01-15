@@ -1,6 +1,5 @@
-//this page will contain the details of the choose your career project
 import NavBar from "../Components/Navbar";
-import CYCCarousel from "../Components/CYCCarousel";
+import PortfolioCarousel from "../Components/PortfolioCarousel";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -9,14 +8,13 @@ import Button from "react-bootstrap/Button";
 import ReturnProjectButton from "../Components/ReturnProjectButton";
 import "../index.css";
 
-function ProjectChooseYourCareer() {
+function AccordionPortfolio() {
   return (
     <>
-      <NavBar />
       <Container className="mt-5">
         <div>
-          <h1 className="project_title">CHOOSE YOUR CAREER</h1>
-          <h2 className="project_subtitle">Projet de data visualisation</h2>
+          <h1 className="project_title">PORTFOLIO V.1</h1>
+          <h2 className="project_subtitle">Projet React</h2>
         </div>
         <Button
           className="me-4 mt-4 "
@@ -26,10 +24,10 @@ function ProjectChooseYourCareer() {
         >
           LE PROJET SUR GITHUB
         </Button>
-        
-          <Row className="mt-5">
+        <div className="mt-5">
+          <Row>
             <Col className="project_image mt-3" xs={12} sm={12} md={12} lg={5}>
-              <CYCCarousel></CYCCarousel>
+              <PortfolioCarousel></PortfolioCarousel>
             </Col>
             <Col xs={12} sm={12} md={12} lg={7}>
               <Accordion className="accordion mb-5" flush defaultActiveKey="0">
@@ -38,9 +36,8 @@ function ProjectChooseYourCareer() {
                     <strong>CONTEXTE ET OBJECTIFS</strong>
                   </Accordion.Header>
                   <Accordion.Body className="accordion">
-                    Comprendre le fonctionnement d'une API en faisant des appels
-                    API.<br></br> Afficher les données récupérées avec{" "}
-                    <strong>Chart.js</strong>.
+                    Approfondir ce qui a été abordé lors du projet <a href="/projects/consonea">Consonea </a> : les routes, l'organisation des fichiers, la décomposition en composants. <br></br>
+                    Mener à terme un projet plus conséquent que ce que j'ai pu faire avant. 
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="1" className="accordion">
@@ -48,13 +45,10 @@ function ProjectChooseYourCareer() {
                     <strong>ORGANISATION</strong>
                   </Accordion.Header>
                   <Accordion.Body className="accordion">
-                    Code en solo, pair et mob programming avec code review
-                    régulier.<br></br>
-                    Utilisation de trello pour se répartir les tâches et
-                    déterminer les priorités.<br></br>
-                    Mise au point régulière avec le groupe afin de savoir
-                    comment le projet se passe individuellement et si il y a des
-                    besoins particuliers qui ressortent.<br></br>
+                    Réflexion sur les éléments qui vont être présents sur la page et comment les organiser ente eux. Décision d'utiliser le framework React-Bootstrap. <br></br>
+                    Création d'un visuel de base sur Figma pour organiser mes pages. <br></br>
+                    Lancement du projet en m'appuyant sur la documentation de React.
+                    Travail sur mon temps perso après les cours, échange fréquent avec les personnes de ma promo afin de voir ce qui peut être amélioré.
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="2" className="accordion">
@@ -63,8 +57,8 @@ function ProjectChooseYourCareer() {
                   </Accordion.Header>
                   <Accordion.Body className="accordion">
                     <strong>Langages :</strong> HTML, CSS, JavaScript <br></br>
-                    <strong>Technos :</strong> Chart.js, API Pôle Emploi,
-                    Postman
+                    <strong>Technos :</strong> React Bootstrap, EMAILJS
+                    
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="3" className="accordion">
@@ -72,34 +66,34 @@ function ProjectChooseYourCareer() {
                     <strong>RESULTATS ET AXES D'AMELIORATION</strong>
                   </Accordion.Header>
                   <Accordion.Body className="accordion">
-                    La barre de recherche est fonctionnelle, les résultats
-                    affichés sont bien ceux des département recherchés. On peut
-                    séléctionner ou déselctionner les données sur les
-                    graphiques.
+                    Le contenu de mon portfolio correspond à ce que je souhaite montrer, le formulaire de contact est fonctionnel. J'ai beaucoup appris grâce aux recherches que le projet m'a poussé à faire. J'ai pu échanger et recevoir des conseils de mes pairs. Je retiens des leçons de ce projet, notamment à me forcer à prioriser certaines tâches.
                     <br></br>
-                    Ôter les cases vides lorsqu'il n'y a pas encore de réultats
-                    à afficher.
                     <br></br>
-                    Rendre fonctionnels les filtres de recherche.
+                    J'ai atteint le MVP que je m'étais fixé mais le style graphique ne me correspond pas vraiment, il est trop générique pour moi. Pourtant je réalise que j'ai perdu une quantité de temps non négligeable sur des détails visuels. Je prendrai le temps de retravailler son apparence dans le futur.
                     <br></br>
-                    Ajouter une icône de chargement le temps que les données
-                    s'affichent
                     <br></br>
-                    Ajouter d'autres API en plus de celle de Pôle Emploi pour
-                    avoir des données plus exactes.
+                    Peut-être revoir la manière dont je détaille les projets.
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="4" className="accordion">
+                  <Accordion.Header>
+                    <strong>MODIFICATIONS PREVUES</strong>
+                  </Accordion.Header>
+                  <Accordion.Body className="accordion">
+                    Refactorisation du code : amélioration de l'organisation, révision des composants et des noms des fichiers.
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
               <Button
               className="mb-2 me-4 "
-              href="/projects/consonea"
+              href="/projects/kind_glyphs"
               variant="outline-warning"
             >
               Projet précédant
             </Button>
             <Button
               className="mb-2 "
-              href="/projects/kind_glyphs"
+              href="/projects/pico_resto"
               variant="outline-warning"
             >
               Projet suivant
@@ -110,10 +104,12 @@ function ProjectChooseYourCareer() {
               </Col>
             </Row>
           </Col>
+          
           </Row>
+        </div>
       </Container>
     </>
   );
 }
 
-export default ProjectChooseYourCareer;
+export default AccordionPortfolio;

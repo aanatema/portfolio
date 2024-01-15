@@ -128,7 +128,7 @@ function ContactInfo() {
             </Form.Control.Feedback>
           </FloatingLabel>
         </Row>
-        <Button className="mt-4" type="submit" value="Send" variant="warning">
+        <Button className="mt-4 mb-5" type="submit" value="Send" variant="warning">
           Envoyer
         </Button>
       </Form>

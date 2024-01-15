@@ -28,8 +28,8 @@ function ProjectConsonea() {
         >
           LE PROJET SUR GITHUB
         </Button>
-        <Row>
-          <Col className="project_image my-5" xs={12} sm={12} md={12} lg={5}>
+        <Row className="mt-5">
+          <Col className="project_image mt-3" xs={12} sm={12} md={12} lg={5}>
             <CCarousel />
           </Col>
           <Col className="" xs={12} sm={12} md={12} lg={7}>
@@ -112,22 +112,24 @@ function ProjectConsonea() {
               </Accordion.Item>
             </Accordion>
             <Button
-              className="mb-4 me-4 "
+              className="mb-2 me-4 "
               href="/projects/pico_resto"
               variant="outline-warning"
             >
               Projet précédant
             </Button>
             <Button
-              className="mb-4 "
+              className="mb-2 "
               href="/projects/choose_your_career"
               variant="outline-warning"
             >
               Projet suivant
             </Button>
-          </Col>
-          <Col>
-            <ReturnProjectButton></ReturnProjectButton>
+            <Row>
+              <Col className=''>
+                <ReturnProjectButton></ReturnProjectButton>
+              </Col>
+            </Row>
           </Col>
         </Row>
       </Container>

@@ -12,7 +12,7 @@ import ProjectConsonea from './Pages/ProjectConsonea';
 import ProjectChooseYourCareer from './Pages/ProjectChooseYourCareer';
 import ProjectSecretSanta from './Pages/ProjectKindGlyphs';
 import ProjectPicoResto from './Pages/ProjectPicoResto';
-
+import ProjectPortfolio from './Pages/ProjectPortfolio';
 
 //gère l'application
 export default function App(){
@@ -33,6 +33,7 @@ export default function App(){
         <Route path="projects/choose_your_career" element={<ProjectChooseYourCareer /> }/> 
         <Route path="projects/kind_glyphs" element={<ProjectSecretSanta /> }/> 
         <Route path="projects/pico_resto" element={<ProjectPicoResto /> }/> 
+        <Route path="projects/portfolio" element={<ProjectPortfolio /> }/> 
 
       </Routes>
     </BrowserRouter>
@@ -40,12 +41,6 @@ export default function App(){
 
   )
 }
-
-
-
-
-
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

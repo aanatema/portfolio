@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Accordion from "react-bootstrap/Accordion";
 import Image from "react-bootstrap/Image";
-import an_allegory_of_victory from "../Images/an_allegory_of_victory.jpg";
+import KindGlyphs from "../Images/KindGlyphs.png";
 import Button from "react-bootstrap/Button";
 import ReturnProjectButton from "../Components/ReturnProjectButton";
 
@@ -14,7 +14,7 @@ function ProjectKindGlyphs() {
       <NavBar />
       <Container className="mt-5">
         <div>
-          <h1 className="project_title">KIND GLYPHS</h1>
+          <h1 className="project_title">KIND GLYPHS (en cours)</h1>
           <h2 className="project_subtitle">Extension navigateur de censure</h2>
         </div>
         <Button
@@ -25,9 +25,9 @@ function ProjectKindGlyphs() {
         >
           LE PROJET SUR GITHUB
         </Button>
-        <Row>
-          <Col className="project_image my-5" xs={12} sm={12} md={12} lg={5}>
-            <Image src={an_allegory_of_victory} fluid />
+        <Row className="mt-5">
+          <Col className="project_image mt-3" xs={12} sm={12} md={12} lg={5}>
+            <Image src={KindGlyphs} fluid />
           </Col>
           <Col className="" xs={12} sm={12} md={12} lg={7}>
             <Accordion className="accordion mb-5" defaultActiveKey="0" flush>
@@ -67,23 +67,26 @@ function ProjectKindGlyphs() {
               </Accordion.Item>
             </Accordion>
             <Button
-              className="mb-4 me-4 "
+              className="mb-2 me-4 "
               href="/projects/choose_your_career"
               variant="outline-warning"
             >
               Projet précédant
             </Button>
             <Button
-              className="mb-4 "
+              className="mb-2 "
               href="/projects/portfolio"
               variant="outline-warning"
             >
               Projet suivant
             </Button>
+            <Row>
+              <Col className=''>
+                <ReturnProjectButton></ReturnProjectButton>
+              </Col>
+            </Row>
           </Col>
-          <Col>
-            <ReturnProjectButton></ReturnProjectButton>
-          </Col>
+          
         </Row>
       </Container>
     </>

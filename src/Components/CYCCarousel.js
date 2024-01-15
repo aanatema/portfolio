@@ -8,7 +8,7 @@ import cyc_result_17_option from "../Images/cyc_result_17_option.png";
 
 function CYCCarousel() {
   return (
-    <Carousel  data-bs-theme="dark" slide={false}>
+    <Carousel  data-bs-theme="dark" slide={false} interval={null}>
        <Carousel.Item>
         <Image src={cyc_acceuil} alt="Résultats de la recherche pour le département de la Seine Saint-Denis (93)" fluid />
       </Carousel.Item>

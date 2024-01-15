@@ -8,7 +8,7 @@ import consonea_mise_en_vente from "../Images/consonea_mise_en_vente.png";
 
 function CCarousel() {
   return (
-    <Carousel  data-bs-theme="dark" slide={false}>
+    <Carousel data-bs-theme="dark" slide={false} interval={null}>
        <Carousel.Item>
         <Image src={consonea_accueil1} alt="Résultats de la recherche pour le département de la Seine Saint-Denis (93)" fluid />
       </Carousel.Item>

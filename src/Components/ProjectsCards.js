@@ -44,7 +44,7 @@ function Cards() {
       title: "PORTFOLIO",
       content: "Portfolio ayant pour but d'approfondir ce que j'ai pu déjà tester avec React lors du projet Consonea",
       cat: "Projet personnel",
-      status: "En cours",
+      status: "V.1",
       link: "/projects/portfolio",
       img: require("../Images/5.png"),
     },

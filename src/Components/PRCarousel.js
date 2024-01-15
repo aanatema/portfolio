@@ -7,7 +7,7 @@ import pico_resto_in_game from "../Images/pico_resto_in_game.jpg";
 
 function PRCarousel() {
   return (
-    <Carousel  data-bs-theme="light" slide={false}>
+    <Carousel  data-bs-theme="light" slide={false} interval={null}>
        <Carousel.Item>
         <Image src={pico_resto_start_screen} alt="Résultats de la recherche pour le département de la Seine Saint-Denis (93)" fluid />
       </Carousel.Item>

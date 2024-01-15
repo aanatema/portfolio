@@ -41,7 +41,7 @@ function Description() {
               J’aime les langues et apprendre les us et coutumes d’autres pays
               est très intéressant, mais on peut difficilement les mettre en
               pratique tous les jours sans se trouver dans le pays d’origine.
-              L’avantage des langages informatiques c’est qu’on peut les
+              L’avantage des langages informatiques, c’est qu’on peut les
               utiliser quand on veut et en changer quand on le souhaite.
               <br></br>
               <br></br>
@@ -57,7 +57,7 @@ function Description() {
               <br></br>
               Au cours de ma formation, j’ai travaillé sur 7 projets différents
               avec des équipes allant de 3 à 9 personnes. Ceux sur lesquels j'ai
-              le plus aimé travailler sont rangés {" "}
+              le plus aimé travailler sont rangés{" "}
               <a href="/projects">
                 <span id="link">là</span>
               </a>{" "}

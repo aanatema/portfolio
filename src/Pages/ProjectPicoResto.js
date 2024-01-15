@@ -32,8 +32,8 @@ function ProjectPicoResto() {
         >
           JOUER AU JEU
         </Button>
-        <Row>
-          <Col className="project_image my-5" xs={12} sm={12} md={12} lg={5}>
+        <Row className="mt-5">
+          <Col className="project_image mt-3" xs={12} sm={12} md={12} lg={5}>
             <PRCarousel></PRCarousel>
           </Col>
           <Col className="" xs={12} sm={12} md={12} lg={7}>
@@ -93,22 +93,24 @@ function ProjectPicoResto() {
               </Accordion.Item>
             </Accordion>
             <Button
-              className="mb-4 me-4 "
+              className="mb-2 me-4 "
               href="/projects/kind_glyphs"
               variant="outline-warning"
             >
               Projet précédant
             </Button>
             <Button
-              className="mb-4 "
+              className="mb-2 "
               href="/projects/consonea"
               variant="outline-warning"
             >
               Projet suivant
             </Button>
-          </Col>
-          <Col>
-            <ReturnProjectButton></ReturnProjectButton>
+            <Row>
+              <Col className=''>
+                <ReturnProjectButton></ReturnProjectButton>
+              </Col>
+            </Row>
           </Col>
         </Row>
       </Container>
