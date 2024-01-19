@@ -11,7 +11,7 @@ function Description() {
     <Container className="mt-5" style={{ color: "#cdcfce" }}>
       <div id="intro">
         <h2>
-          Développeuse Web Junior en recherche d'une alternance Full Stack,
+          Développeuse Web Junior en recherche d'une alternance Front ou Full Stack,
           démarrage entre
           <span id="ada"> février 2024</span> et <span id="ada"> mai 2024</span>{" "}
           .
