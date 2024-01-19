@@ -77,10 +77,16 @@ function AccordionPortfolio() {
                 </Accordion.Item>
                 <Accordion.Item eventKey="4" className="accordion">
                   <Accordion.Header>
-                    <strong>MODIFICATIONS PREVUES</strong>
+                    <strong>MODIFICATIONS PREVUES / IDEES POUR PLUS TARD</strong>
                   </Accordion.Header>
                   <Accordion.Body className="accordion">
-                    Refactorisation du code : amélioration de l'organisation, révision des composants et des noms des fichiers.
+                    1. Refactorisation du code : amélioration de l'organisation, révision des composants et des noms des fichiers.
+                    <br></br>
+                    2. Ajout du dernier projet en date : Spots & Potes, application mobile Android.
+                    <br></br>
+                    <br></br>
+                    Traduire le site en anglais.
+                    Renforcer l'accessibilité.
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>

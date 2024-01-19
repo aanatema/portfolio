@@ -9,11 +9,12 @@ function Cards() {
   //tableau d'objects contenant les informations sur les différents projets
   const cardData = [
     {
-      title: "PICO RESTO",
-      cat: "Projet d'école",
-      content: "Jeu rétro Pico-8 codé en LUA. Tout premier projet de la formation",
-      link: "projects/pico_resto",
-      img: require("../Images/2.png"),
+      title: "PORTFOLIO",
+      content: "Portfolio ayant pour but d'approfondir ce que j'ai pu déjà tester avec React lors du projet Consonea",
+      cat: "Projet personnel",
+      status: "V.1",
+      link: "/projects/portfolio",
+      img: require("../Images/5.png"),
     },
     {
       title: "CONSONEA",
@@ -31,7 +32,6 @@ function Cards() {
       link: "/projects/choose_your_career",
       img: require("../Images/3.png"),
     },
-
     {
       title: "KIND GLYPHS",
       content: "Extension navigateur permettant de censurer certains mots",
@@ -41,12 +41,11 @@ function Cards() {
       img: require("../Images/4.png"),
     },
     {
-      title: "PORTFOLIO",
-      content: "Portfolio ayant pour but d'approfondir ce que j'ai pu déjà tester avec React lors du projet Consonea",
-      cat: "Projet personnel",
-      status: "V.1",
-      link: "/projects/portfolio",
-      img: require("../Images/5.png"),
+      title: "PICO RESTO",
+      cat: "Projet d'école",
+      content: "Jeu rétro Pico-8 codé en LUA. Tout premier projet de la formation",
+      link: "projects/pico_resto",
+      img: require("../Images/2.png"),
     },
   ];
 
