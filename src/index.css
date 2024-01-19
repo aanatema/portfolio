@@ -15,6 +15,17 @@ code {
    /* source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace; */
   } 
+
+@font-face {
+    font-family: "Poppins";
+    src:
+      local("Trickster"),
+      url("trickster-COLRv1.otf") format("opentype") tech(color-COLRv1),
+      url("trickster-outline.otf") format("opentype"),
+      url("trickster-outline.woff") format("woff");
+  }
+  
+
 .navbar{
   background-color:#ffc107;
   color:#151412;
