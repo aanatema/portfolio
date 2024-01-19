@@ -9,13 +9,13 @@ function PRCarousel() {
   return (
     <Carousel  data-bs-theme="light" slide={false} interval={null}>
        <Carousel.Item>
-        <Image src={pico_resto_start_screen} alt="Résultats de la recherche pour le département de la Seine Saint-Denis (93)" fluid />
+        <Image src={pico_resto_start_screen} alt="" fluid />
       </Carousel.Item>
       <Carousel.Item>
-        <Image src={pico_resto_in_game} alt="Résultats de la recherche pour le département de la Seine Saint-Denis (93)" fluid />
+        <Image src={pico_resto_in_game} alt="" fluid />
       </Carousel.Item>
       <Carousel.Item>
-        <Image src={pico_resto_endgame} alt="Résultats de la recherche pour le département de la Seine Saint-Denis (93)" fluid />
+        <Image src={pico_resto_endgame} alt="" fluid />
       </Carousel.Item>
     </Carousel>
   );

@@ -17,7 +17,7 @@ function AccordionPortfolio() {
         </div>
         <Button
           className="me-4 mt-4 "
-          href="https://github.com/aanatema/projet-collectif-dataviz-myriam-romane-bradley-mehdi"
+          href="https://github.com/aanatema/romane_boireau_portfolio"
           target="_blank"
           variant="outline-warning"
         >

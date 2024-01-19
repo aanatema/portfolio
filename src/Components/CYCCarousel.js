@@ -10,10 +10,7 @@ function CYCCarousel() {
   return (
     <Carousel  data-bs-theme="dark" slide={false} interval={null}>
        <Carousel.Item>
-        <Image src={cyc_acceuil} alt="Résultats de la recherche pour le département de la Seine Saint-Denis (93)" fluid />
-      </Carousel.Item>
-      <Carousel.Item>
-        <Image src={cyc_maj_data} alt="Résultats de la recherche pour le département de la Seine Saint-Denis (93)" fluid />
+        <Image src={cyc_acceuil} alt="Page d'accueil" fluid />
       </Carousel.Item>
       <Carousel.Item>
         <Image src={cyc_result_93} alt="Résultats de la recherche pour le département de la Seine Saint-Denis (93)" fluid />

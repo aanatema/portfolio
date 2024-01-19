@@ -35,7 +35,7 @@ function ContactInfo() {
   return (
     <Container>
       <h1 md={6} lg={6} className="mt-5 mb-3">
-        Envie d'échanger ? Laissez moi message !
+        Envie d'échanger ? Laissez moi un message !
       </h1>
       <Form ref={form} onSubmit={sendEmail}>
         <Row className="mt-5 g-2">

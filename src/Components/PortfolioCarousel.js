@@ -11,28 +11,28 @@ function PortfolioCarousel() {
       <Carousel.Item>
         <Image
           src={portfolio1}
-          alt="Résultats de la recherche pour le département de la Seine Saint-Denis (93)"
+          alt=""
           fluid
         />
       </Carousel.Item>
       <Carousel.Item>
         <Image
           src={portfolio2}
-          alt="Résultats de la recherche pour le département de la Seine Saint-Denis (93)"
+          alt=""
           fluid
         />
       </Carousel.Item>
       <Carousel.Item>
         <Image
           src={portfolio4}
-          alt="Résultats de la recherche pour le département de la Seine Saint-Denis (93)"
+          alt=""
           fluid
         />
       </Carousel.Item>
       <Carousel.Item>
         <Image
           src={portfolio5}
-          alt="Résultats de la recherche pour le département de la Seine Saint-Denis (93)"
+          alt=""
           fluid
         />
       </Carousel.Item>

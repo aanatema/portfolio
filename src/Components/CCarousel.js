@@ -10,19 +10,19 @@ function CCarousel() {
   return (
     <Carousel data-bs-theme="dark" slide={false} interval={null}>
        <Carousel.Item>
-        <Image src={consonea_accueil1} alt="Résultats de la recherche pour le département de la Seine Saint-Denis (93)" fluid />
+        <Image src={consonea_accueil1} alt="Page d'accueil" fluid />
       </Carousel.Item>
       <Carousel.Item>
-        <Image src={consonea_accueil} alt="Résultats de la recherche pour le département de la Seine Saint-Denis (93)" fluid />
+        <Image src={consonea_accueil} alt="Suite de la page d'accueil" fluid />
       </Carousel.Item>
       <Carousel.Item>
-        <Image src={consonea_inscription_page} alt="Résultats de la recherche pour le département de la Seine Saint-Denis (93)" fluid />
+        <Image src={consonea_inscription_page} alt="Page d'inscription" fluid />
       </Carousel.Item>
       <Carousel.Item>
-        <Image src={consonea_login_page} alt="Résultats de la recherche pour le département de la Charente-Maritime (17), certaines catégories de résultats sont décochées" fluid />
+        <Image src={consonea_login_page} alt="Page de connexion" fluid />
       </Carousel.Item>
       <Carousel.Item>
-        <Image src={consonea_mise_en_vente} alt="Résultats de la recherche pour le département de la Loire-Atlantique (44)" fluid />
+        <Image src={consonea_mise_en_vente} alt="Page d'ajout d'un meuble à la vente" fluid />
       </Carousel.Item>
     </Carousel>
   );
