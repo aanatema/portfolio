@@ -1,4 +1,3 @@
-import NavBar from "../Components/Navbar";
 import PortfolioCarousel from "../Components/PortfolioCarousel";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
