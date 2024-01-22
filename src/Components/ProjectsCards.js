@@ -11,14 +11,16 @@ function Cards() {
     {
       title: "PORTFOLIO",
       content: "Portfolio ayant pour but d'approfondir ce que j'ai pu déjà tester avec React lors du projet Consonea",
-      cat: "Projet personnel",
+      cat: "PROJET PERSONNEL",
       status: "V.1",
+      technos:"React.js / Bootstrap / EmailJS",
       link: "/projects/portfolio",
       img: require("../Images/5.png"),
     },
     {
       title: "CONSONEA",
-      cat: "Projet d'école",
+      cat: "PROJET D'ECOLE",
+      technos:"React.js / Bootstrap / Express / MySQL / Node.js",
       content:
         "Création d'un site de vente de meuble avec création d'une API et BDD",
       link: "/projects/consonea",
@@ -26,7 +28,8 @@ function Cards() {
     },
     {
       title: "CHOOSE YOUR CAREER",
-      cat: "Projet d'école",
+      cat: "PROJET D'ECOLE",
+      technos:" JS-CSS-HTML / ChartJS / API Pôle Emploi",
       content:
         "Projet de visualisation de données basé sur l'API de Pôle Emploi",
       link: "/projects/choose_your_career",
@@ -35,14 +38,16 @@ function Cards() {
     {
       title: "KIND GLYPHS",
       content: "Extension navigateur permettant de censurer certains mots",
-      cat: "Projet personnel",
+      cat: "PROJET PERSONNEL",
+      technos:"JavaScript / HTML / CSS",
       status: "En cours",
       link: "/projects/kind_glyphs",
       img: require("../Images/4.png"),
     },
     {
       title: "PICO RESTO",
-      cat: "Projet d'école",
+      cat: "PROJET D'ECOLE",
+      technos:"LUA",
       content: "Jeu rétro Pico-8 codé en LUA. Tout premier projet de la formation",
       link: "projects/pico_resto",
       img: require("../Images/2.png"),
@@ -58,14 +63,17 @@ function Cards() {
           <Card className="card_style my-4 mx-2">
             <Card.Img className="card_img " variant="top" src={card.img} />
             <Card.Body>
-              <Stack className="mb-4" direction="horizontal" gap={2}>
-                <Badge bg="secondary" style={{ fontSize: "1rem" }}>
+              <Stack className="mb-1" direction="horizontal" gap={2}>
+                <Badge bg="success" style={{ fontSize: "0.85rem" }}>
                   {card.cat}
                 </Badge>
-                <Badge bg="warning" style={{ fontSize: "1rem" }}>
+                <Badge bg="warning" style={{ fontSize: "0.85rem" }}>
                   {card.status}
                 </Badge>
               </Stack>
+              <Badge className="mb-2"  bg="danger" style={{ fontSize: "0.85rem" }}>
+                  {card.technos}
+                </Badge>
               <Card.Title>
                 <strong>{card.title}</strong>
               </Card.Title>

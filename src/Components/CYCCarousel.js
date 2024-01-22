@@ -1,7 +1,6 @@
 import Carousel from "react-bootstrap/Carousel";
 import Image from "react-bootstrap/Image";
 import cyc_acceuil from "../Images/cyc_accueil.jpg";
-import cyc_maj_data from "../Images/cyc_maj_data.png";
 import cyc_result_44 from "../Images/cyc_result_44.png";
 import cyc_result_93 from "../Images/cyc_result_93.png";
 import cyc_result_17_option from "../Images/cyc_result_17_option.png";
