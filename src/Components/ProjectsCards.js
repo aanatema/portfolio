@@ -13,14 +13,16 @@ function Cards() {
       content: "Portfolio ayant pour but d'approfondir ce que j'ai pu déjà tester avec React lors du projet Consonea",
       cat: "PROJET PERSONNEL",
       status: "V.1",
-      technos:"React.js / Bootstrap / EmailJS",
+      technos:"React.js / Bootstrap ",
+      technos2:"EmailJS",
       link: "/projects/portfolio",
       img: require("../Images/5.png"),
     },
     {
       title: "CONSONEA",
       cat: "PROJET D'ECOLE",
-      technos:"React.js / Bootstrap / Express / MySQL / Node.js",
+      technos:"React / Bootstrap / Express ",
+      technos2:" MySQL / Node.js",
       content:
         "Création d'un site de vente de meuble avec création d'une API et BDD",
       link: "/projects/consonea",
@@ -29,7 +31,8 @@ function Cards() {
     {
       title: "CHOOSE YOUR CAREER",
       cat: "PROJET D'ECOLE",
-      technos:" JS-CSS-HTML / ChartJS / API Pôle Emploi",
+      technos:" JS / CSS / HTML ",
+      technos2:" ChartJS / API Pôle Emploi",
       content:
         "Projet de visualisation de données basé sur l'API de Pôle Emploi",
       link: "/projects/choose_your_career",
@@ -55,14 +58,14 @@ function Cards() {
   ];
 
   return (
-    <Row xs={1} md={2} lg={3} className="mx-4 my-4">
+    <Row xs={12} md={6} lg={3} className="mx-4 my-4">
       {/* cardData.map itère sur le tableau pour créer les cards et integrer les informations du tableau*/}
       {/* idx est pour l'index */}
       {cardData.map((card, idx) => (
         <Col key={idx}>
           <Card className="card_style my-4 mx-2">
             <Card.Img className="card_img " variant="top" src={card.img} />
-            <Card.Body>
+            <Card.Body > 
               <Stack className="mb-1" direction="horizontal" gap={2}>
                 <Badge bg="success" style={{ fontSize: "0.85rem" }}>
                   {card.cat}
@@ -70,9 +73,13 @@ function Cards() {
                 <Badge bg="warning" style={{ fontSize: "0.85rem" }}>
                   {card.status}
                 </Badge>
+                
               </Stack>
-              <Badge className="mb-2"  bg="danger" style={{ fontSize: "0.85rem" }}>
+              <Badge className="mb-2 me-2" bg="danger" style={{ fontSize: "0.85rem" }}>
                   {card.technos}
+                </Badge>
+                <Badge className="mb-2 " bg="danger" style={{ fontSize: "0.85rem" }}>
+                  {card.technos2}
                 </Badge>
               <Card.Title>
                 <strong>{card.title}</strong>
