@@ -10,7 +10,9 @@ body {
   color:#151412;
 }
 
-
+.list{
+  font-size: 1.25rem;
+}
 .description{
  text-align: justify;
 }
