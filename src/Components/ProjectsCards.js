@@ -58,7 +58,7 @@ function Cards() {
   ];
 
   return (
-    <Row xs={12} md={6} lg={3} className="mx-4 my-4">
+    <Row xs={1} md={2} lg={3} className="mx-4 my-4">
       {/* cardData.map itère sur le tableau pour créer les cards et integrer les informations du tableau*/}
       {/* idx est pour l'index */}
       {cardData.map((card, idx) => (
