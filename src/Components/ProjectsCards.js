@@ -31,7 +31,7 @@ function Cards() {
     {
       title: "CHOOSE YOUR CAREER",
       cat: "PROJET D'ECOLE",
-      technos:" JS / CSS / HTML ",
+      technos:" JavaScript / CSS / HTML ",
       technos2:" ChartJS / API Pôle Emploi",
       content:
         "Projet de visualisation de données basé sur l'API de Pôle Emploi",
@@ -78,16 +78,15 @@ function Cards() {
               <Badge className="mb-2 me-2" bg="danger" style={{ fontSize: "0.85rem" }}>
                   {card.technos}
                 </Badge>
-                <Badge className="mb-2 " bg="danger" style={{ fontSize: "0.85rem" }}>
+                <Badge className="mb-3 " bg="danger" style={{ fontSize: "0.85rem" }}>
                   {card.technos2}
                 </Badge>
               <Card.Title>
                 <strong>{card.title}</strong>
               </Card.Title>
-
               <Card.Text>{card.content}</Card.Text>
               <Button className="button" href={card.link}>
-                En savoir plus
+                Voir le projet
               </Button>
             </Card.Body>
           </Card>

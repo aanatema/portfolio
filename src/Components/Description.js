@@ -13,7 +13,7 @@ function Description() {
         <h2>
           Développeuse Web Junior en recherche d'une alternance Front ou Full Stack,
           démarrage entre
-          <span id="ada"> février 2024</span> et <span id="ada"> mai 2024</span>{" "}
+          <span id="ada"> février </span> et <span id="ada"> mai 2024</span>{" "}
           .
         </h2>
         <br></br>
@@ -32,13 +32,12 @@ function Description() {
               Après 3 ans d'études des{" "}
               <span id="ada">
                 langues et des cultures russes, anglaises et italiennes
-              </span>{" "}
-              (Traductions, interprétariat et médiations interculturelles), j'ai
-              choisi de changer de voie pour quelque chose de plus tangible : le
+              </span>, j'ai
+              choisi de changer de voie pour quelque chose de plus tangible: le
               code.
               <br></br>
               <br></br>
-              J’aime les langues et apprendre les us et coutumes d’autres pays
+              J’aime les langues, apprendre les us et coutumes d’autres pays
               est très intéressant, mais on peut difficilement les mettre en
               pratique tous les jours sans se trouver dans le pays d’origine.
               L’avantage des langages informatiques, c’est qu’on peut les

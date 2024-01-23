@@ -1,10 +1,10 @@
 import NavBar from "../Components/Navbar"
 
 
-function Resume (){
+function Updates (){
     return (
 <NavBar />
     )
 };
 
-export default Resume;
+export default Updates;

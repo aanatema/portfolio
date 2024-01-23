@@ -1,7 +1,6 @@
 body {
   margin: 0;
   font-family: Verdana, Geneva, sans-serif;
-
   background-color:#151412;
   color:white; 
 } 
@@ -9,6 +8,11 @@ body {
 .navbar{
   background-color:#ffc107;
   color:#151412;
+}
+
+
+.description{
+ text-align: justify;
 }
 
 /* style de présentation des projets */
