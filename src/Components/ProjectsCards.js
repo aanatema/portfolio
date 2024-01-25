@@ -64,7 +64,7 @@ function Cards() {
       {cardData.map((card, idx) => (
         <Col key={idx}>
           <Card className="card_style my-4 mx-2">
-            <Card.Img className="card_img " variant="top" src={card.img} />
+            <Card.Img className="card_img " variant="top" src={card.img} alt="Image illustrant le projet"/>
             <Card.Body > 
               <Stack className="mb-1" direction="horizontal" gap={2}>
                 <Badge bg="success" style={{ fontSize: "0.85rem" }}>

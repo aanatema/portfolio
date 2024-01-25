@@ -12,9 +12,8 @@ function Description() {
       <div id="intro">
         <h2>
           Développeuse Web Junior en recherche d'une alternance Front ou Full Stack,
-          démarrage entre
-          <span id="ada"> février </span> et <span id="ada"> mai 2024</span>{" "}
-          .
+          démarrage à partir de 
+          <span id="ada"> février 2024</span>.
         </h2>
         <br></br>
         <h5>
@@ -25,7 +24,7 @@ function Description() {
       <div className="mt-4">
         <Row>
           <Col className="me_img my-4" xs={12} sm={12} md={5} lg={5}>
-            <Image src={pp} fluid />
+            <Image src={pp} fluid alt="Photo de Romane Boireau"/>
           </Col>
           <Col className="description my-3 " xs={12} sm={12} md={7} lg={7}>
             <p>

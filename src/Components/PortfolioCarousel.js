@@ -11,28 +11,28 @@ function PortfolioCarousel() {
       <Carousel.Item>
         <Image
           src={portfolio1}
-          alt=""
+          alt="Image de la page d'accueil du portfolio"
           fluid
         />
       </Carousel.Item>
       <Carousel.Item>
         <Image
           src={portfolio2}
-          alt=""
+          alt="Image du texte de présentation de Romane Boireau"
           fluid
         />
       </Carousel.Item>
       <Carousel.Item>
         <Image
           src={portfolio4}
-          alt=""
+          alt="Image de la page de contact"
           fluid
         />
       </Carousel.Item>
       <Carousel.Item>
         <Image
           src={portfolio5}
-          alt=""
+          alt="Image de la page projets"
           fluid
         />
       </Carousel.Item>

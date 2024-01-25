@@ -9,13 +9,13 @@ function PRCarousel() {
   return (
     <Carousel  data-bs-theme="light" slide={false} interval={null}>
        <Carousel.Item>
-        <Image src={pico_resto_start_screen} alt="" fluid />
+        <Image src={pico_resto_start_screen} alt="Ecran start du jeu" fluid />
       </Carousel.Item>
       <Carousel.Item>
-        <Image src={pico_resto_in_game} alt="" fluid />
+        <Image src={pico_resto_in_game} alt="Image en jeu" fluid />
       </Carousel.Item>
       <Carousel.Item>
-        <Image src={pico_resto_endgame} alt="" fluid />
+        <Image src={pico_resto_endgame} alt="Ecran de fin du jeu" fluid />
       </Carousel.Item>
     </Carousel>
   );
