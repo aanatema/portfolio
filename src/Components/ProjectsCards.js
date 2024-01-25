@@ -70,7 +70,7 @@ function Cards() {
                 <Badge bg="success" style={{ fontSize: "0.85rem" }}>
                   {card.cat}
                 </Badge>
-                <Badge bg="warning" style={{ fontSize: "0.85rem" }}>
+                <Badge bg="primary" style={{ fontSize: "0.85rem" }}>
                   {card.status}
                 </Badge>
                 
