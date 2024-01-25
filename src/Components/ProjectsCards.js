@@ -16,7 +16,7 @@ function Cards() {
       technos:"React.js / Bootstrap ",
       technos2:"EmailJS",
       link: "/projects/portfolio",
-      img: require("../Images/6.png"),
+      img: require("../Images/cover_portfolio.png"),
     },
     {
       title: "CONSONEA",
@@ -26,7 +26,7 @@ function Cards() {
       content:
         "Création d'un site de vente de meuble avec création d'une API et BDD.",
       link: "/projects/consonea",
-      img: require("../Images/1.png"),
+      img: require("../Images/cover_consonea.png"),
     },
     {
       title: "SPOTS & POTES",
@@ -36,7 +36,7 @@ function Cards() {
       content:
         "App mobile Android répertoriant les meilleurs spots de surf.",
       link: "/projects/spots_and_potes",
-      img: require("../Images/3.png"),
+      img: require("../Images/cover_spots_and_potes.png"),
     },
     {
       title: "CHOOSE YOUR CAREER",
@@ -46,7 +46,7 @@ function Cards() {
       content:
         "Projet de visualisation de données basé sur l'API de Pôle Emploi",
       link: "/projects/choose_your_career",
-      img: require("../Images/5.png"),
+      img: require("../Images/cover_choose_your_career.png"),
     },
     {
       title: "KIND GLYPHS",
@@ -55,7 +55,7 @@ function Cards() {
       technos:"JavaScript / HTML / CSS",
       status: "En cours",
       link: "/projects/kind_glyphs",
-      img: require("../Images/4.png"),
+      img: require("../Images/cover_kind_glyphs.png"),
     },
     {
       title: "PICO RESTO",
@@ -63,7 +63,7 @@ function Cards() {
       technos:"LUA",
       content: "Jeu rétro Pico-8 codé en LUA. Tout premier projet de la formation.",
       link: "projects/pico_resto",
-      img: require("../Images/2.png"),
+      img: require("../Images/cover_pico_resto.png"),
     },
   ];
 
