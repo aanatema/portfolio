@@ -25,14 +25,27 @@ function UpdatesList() {
               <br></br>
             </p>
           </div>
+
           <h2 className="updates_date mt-5" >25/01 - Amélioration de l'accessibilité</h2>
           <div className=" project_subtitle" style={{ fontSize: "1.05rem" }}>
             <p>
               - Description altérnative des images 
               <br></br>
-              - Changement de la couleur des badges "V.1" et "En cours" pour un meilleur contraste
+              - Changement de la couleur des badges "V.1" et "En cours" pour un meilleur contraste (écriture blanche sur fond bleu plutôt que blanche sur fond jaune)
               <br></br>
             </p>
+
+            <h2 className="updates_date mt-5" >26/01 - Ajout de projet</h2>
+          <div className=" project_subtitle" style={{ fontSize: "1.05rem" }}>
+            <p>
+              - Création de la card projet pour Spots & Potes.
+              <br></br>
+              - Création de l'image de couverture pour le projet.
+              <br></br>
+              - Création de la route et de la page menant vers le projet.
+              <br></br>
+            </p>
+            </div>
           </div>
         </div>
       </Container>
