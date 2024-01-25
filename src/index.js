@@ -13,6 +13,7 @@ import ProjectChooseYourCareer from './Pages/ProjectChooseYourCareer';
 import ProjectSecretSanta from './Pages/ProjectKindGlyphs';
 import ProjectPicoResto from './Pages/ProjectPicoResto';
 import ProjectPortfolio from './Pages/ProjectPortfolio';
+import ProjectSpotsAndPotes from './Pages/ProjectSpotsAndPotes';
 
 //gère l'application
 export default function App(){
@@ -37,7 +38,7 @@ export default function App(){
         <Route path="projects/kind_glyphs" element={<ProjectSecretSanta /> }/> 
         <Route path="projects/pico_resto" element={<ProjectPicoResto /> }/> 
         <Route path="projects/portfolio" element={<ProjectPortfolio /> }/> 
-
+        <Route path="projects/spots_and_potes" element={<ProjectSpotsAndPotes /> }/> 
       </Routes>
     </BrowserRouter>
 

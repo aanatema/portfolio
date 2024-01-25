@@ -40,7 +40,7 @@ function UpdatesList() {
             <p>
               - Création de la card projet pour Spots & Potes.
               <br></br>
-              - Création de l'image de couverture pour le projet.
+              - Refonte des images de couverture des projets et création de celle de Spots & Potes.
               <br></br>
               - Création de la route et de la page menant vers le projet.
               <br></br>
