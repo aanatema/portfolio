@@ -13,6 +13,12 @@ body {
 .list{
   font-size: 1.25rem;
 }
+
+.updates_date{
+  font-size: 1.20rem;
+  text-decoration: underline;
+}
+
 .description{
  text-align: justify;
 }

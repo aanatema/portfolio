@@ -14,18 +14,26 @@ function UpdatesList() {
         </div>
 
         <div className="mt-5">
-          <h2>22/01</h2>
-          <div className="mt-3 project_subtitle" style={{ fontSize: "1.15rem" }}>
+          <h2 className="updates_date">22/01 - Premiers updates</h2>
+          <div className="mt-3 project_subtitle" style={{ fontSize: "1.05rem" }}>
             <p>
-              Ajout des badges "technos" sur les cards de la page projets.
+              - Ajout des badges "technos" sur les cards de la page projets.
               <br></br>
-              Ajout de la bannière "updates" renvoyant sur cette page.
+              - Ajout de la bannière "updates" renvoyant sur cette page.
               <br></br>
-              Création de la route et de la page Updates.
+              - Création de la route et de la page Updates.
               <br></br>
             </p>
           </div>
-          
+          <h2 className="updates_date mt-5" >25/01 - Amélioration de l'accessibilité</h2>
+          <div className=" project_subtitle" style={{ fontSize: "1.05rem" }}>
+            <p>
+              - Description altérnative des images 
+              <br></br>
+              - Changement de la couleur des badges "V.1" et "En cours" pour un meilleur contraste
+              <br></br>
+            </p>
+          </div>
         </div>
       </Container>
     </>
