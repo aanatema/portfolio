@@ -7,6 +7,7 @@ import Button from "react-bootstrap/Button";
 import ReturnProjectButton from "../Components/ReturnProjectButton";
 import cover_spots_and_potes from "../Images/cover_spots_and_potes.png"
 import "../index.css";
+import SpotsAndPotesCarousel from "./SpotsAndPotesCarousel";
 
 function AccordionPortfolio() {
   return (
@@ -35,7 +36,7 @@ function AccordionPortfolio() {
         <div className="mt-5">
           <Row>
             <Col className="project_image mt-3" xs={12} sm={12} md={12} lg={5}>
-            <Image src={cover_spots_and_potes} alt="Suite de la page d'accueil" fluid />
+            <SpotsAndPotesCarousel/>
             </Col>
             <Col xs={12} sm={12} md={12} lg={7}>
               <Accordion className="accordion mb-5" flush defaultActiveKey="0">
