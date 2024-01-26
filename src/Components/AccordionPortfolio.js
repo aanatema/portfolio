@@ -1,4 +1,4 @@
-import PortfolioCarousel from "../Components/PortfolioCarousel";
+import CarouselPortfolio from "../Components/CarouselPortfolio";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -26,7 +26,7 @@ function AccordionPortfolio() {
         <div className="mt-5">
           <Row>
             <Col className="project_image mt-3" xs={12} sm={12} md={12} lg={5}>
-              <PortfolioCarousel></PortfolioCarousel>
+              <CarouselPortfolio></CarouselPortfolio>
             </Col>
             <Col xs={12} sm={12} md={12} lg={7}>
               <Accordion className="accordion mb-5" flush defaultActiveKey="0">

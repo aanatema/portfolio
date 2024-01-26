@@ -1,4 +1,4 @@
-import CCarousel from "../Components/CCarousel";
+import ConsoneaCarousel from "./CarouselConsoneal";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -23,7 +23,7 @@ function AccordionConsonea() {
       </Button>
       <Row className="mt-5">
         <Col className="project_image mt-3" xs={12} sm={12} md={12} lg={5}>
-          <CCarousel />
+          <ConsoneaCarousel />
         </Col>
         <Col className="" xs={12} sm={12} md={12} lg={7}>
           <Accordion className="accordion mb-5" flush defaultActiveKey="0">
