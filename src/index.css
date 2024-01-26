@@ -67,15 +67,15 @@ body {
 }
 
 #link{
-  color:lightseagreen; 
+  color:#d3a829; 
   text-decoration: underline;
-  text-decoration-color: lightseagreen;
+  text-decoration-color:#d3a829;
 }
 
 #link:hover{
-  color:lightblue;
+  color:rgb(205, 84, 195);
   text-decoration: underline;
-  text-decoration-color: lightblue;
+  text-decoration-color: rgb(205, 84, 195);
 }
 
 .intro{
