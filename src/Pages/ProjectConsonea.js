@@ -111,14 +111,14 @@ function ProjectConsonea() {
             </Accordion>
             <Button
               className="mb-2 me-4 "
-              href="/projects/pico_resto"
+              href="/projects/portfolio"
               variant="outline-warning"
             >
               Projet précédant
             </Button>
             <Button
               className="mb-2 "
-              href="/projects/choose_your_career"
+              href="/projects/spots_and_potes"
               variant="outline-warning"
             >
               Projet suivant

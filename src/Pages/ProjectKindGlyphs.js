@@ -75,7 +75,7 @@ function ProjectKindGlyphs() {
             </Button>
             <Button
               className="mb-2 "
-              href="/projects/portfolio"
+              href="/projects/pico_resto"
               variant="outline-warning"
             >
               Projet suivant

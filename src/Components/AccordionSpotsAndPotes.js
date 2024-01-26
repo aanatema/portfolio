@@ -18,11 +18,19 @@ function AccordionPortfolio() {
         </div>
         <Button
           className="me-4 mt-4 "
-          href="https://github.com/aanatema/crom"
+          href="https://github.com/aanatema/projet-collectif-mobile-back-crom"
           target="_blank"
           variant="outline-warning"
         >
-          LE PROJET SUR GITHUB
+          LE PROJET SUR GITHUB (back)
+        </Button>
+        <Button
+          className="me-4 mt-4 "
+          href="https://github.com/aanatema/projet-collectif-mobile-front-crom"
+          target="_blank"
+          variant="outline-warning"
+        >
+          LE PROJET SUR GITHUB (front)
         </Button>
         <div className="mt-5">
           <Row>
@@ -89,14 +97,14 @@ function AccordionPortfolio() {
               </Accordion>
               <Button
                 className="mb-2 me-4 "
-                href="/projects/kind_glyphs"
+                href="/projects/consonea"
                 variant="outline-warning"
               >
                 Projet précédant
               </Button>
               <Button
                 className="mb-2 "
-                href="/projects/pico_resto"
+                href="/projects/choose_your_career"
                 variant="outline-warning"
               >
                 Projet suivant

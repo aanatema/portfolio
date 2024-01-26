@@ -91,14 +91,14 @@ function AccordionPortfolio() {
               </Accordion>
               <Button
               className="mb-2 me-4 "
-              href="/projects/kind_glyphs"
+              href="/projects/pico_resto"
               variant="outline-warning"
             >
               Projet précédant
             </Button>
             <Button
               className="mb-2 "
-              href="/projects/pico_resto"
+              href="/projects/consonea"
               variant="outline-warning"
             >
               Projet suivant
