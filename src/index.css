@@ -10,6 +10,15 @@ body {
   color:#151412;
 }
 
+.navbarLinks{
+  color:#151412;
+  font-size: large;
+}
+.navbarLinks:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 0.10rem;
+}
+
 .list{
   font-size: 1.25rem;
 }

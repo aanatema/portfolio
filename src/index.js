@@ -4,7 +4,6 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Home from './Pages/HomePage';
-import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Updates from './Pages/Updates';
 import Projects from './Pages/Projects';
@@ -25,7 +24,7 @@ export default function App(){
         <Route path="/" element={<Navigate to="/accueil" replace />} /> 
         {/* on défini que l'url /home_page renvoie vers l'élément <Home /> */}
         <Route path="accueil" element={<Home /> }/> 
-        <Route path="about" element={<About /> }/> 
+        <Route path="updates" element={<Updates /> }/> 
         <Route path="contact" element={<Contact /> }/> 
         <Route path="projects" element={<Projects /> }/> 
         
