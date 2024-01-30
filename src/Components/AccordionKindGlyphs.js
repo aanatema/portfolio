@@ -8,6 +8,7 @@ import Button from "react-bootstrap/Button";
 import ReturnProjectButton from "../Components/ReturnProjectButton";
 
 function AccordionKindGlyphs(){
+  return(
 <>
 <Container className="mt-5">
         <div>
@@ -18,7 +19,7 @@ function AccordionKindGlyphs(){
           className="me-4 mt-4  "
           href="https://github.com/aanatema/kind_glyphs"
           target="_blank"
-          variant="outline-light"
+          variant="outline-warning"
         >
           LE PROJET SUR GITHUB
         </Button>
@@ -87,6 +88,7 @@ function AccordionKindGlyphs(){
         </Row>
       </Container>
       </>
+  )
 }
 
 export default AccordionKindGlyphs;

@@ -7,6 +7,7 @@ import Button from "react-bootstrap/Button";
 import ReturnProjectButton from "../Components/ReturnProjectButton";
 
 function AccordionPicoResto() {
+  return(
   <>
     <Container className="mt-5">
       <div>
@@ -111,6 +112,7 @@ function AccordionPicoResto() {
         </Col>
       </Row>
     </Container>
-  </>;
+  </>
+  )
 }
 export default AccordionPicoResto;

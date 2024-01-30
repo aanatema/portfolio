@@ -6,7 +6,7 @@ function ProjectPortfolio() {
     <>
       <NavBar />
       <AccordionPortfolio />
-      </>
-      )
-  }
-  export default ProjectPortfolio;
+    </>
+  );
+}
+export default ProjectPortfolio;

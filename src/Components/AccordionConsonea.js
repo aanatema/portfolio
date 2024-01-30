@@ -5,8 +5,10 @@ import Col from "react-bootstrap/Col";
 import Accordion from "react-bootstrap/Accordion";
 import Button from "react-bootstrap/Button";
 import ReturnProjectButton from "../Components/ReturnProjectButton";
+import "../index.css";
 
 function AccordionConsonea() {
+  return(
   <>
     <Container className="mt-5">
       <div>
@@ -125,8 +127,8 @@ function AccordionConsonea() {
         </Col>
       </Row>
     </Container>
-    ;
-  </>;
+  </>
+  )
 }
 
 export default AccordionConsonea;

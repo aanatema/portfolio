@@ -8,6 +8,7 @@ import ReturnProjectButton from "../Components/ReturnProjectButton";
 import "../index.css";
 
 function AccordionChooseYourCareer() {
+  return(
   <>
     <Container className="mt-5">
       <div>
@@ -106,7 +107,8 @@ function AccordionChooseYourCareer() {
         </Col>
       </Row>
     </Container>
-  </>;
+  </>
+  )
 }
 
 export default AccordionChooseYourCareer;
