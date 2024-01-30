@@ -7,14 +7,19 @@ The main idea behind this project was to go more in depth with React.js. I first
 
 To clone and run this application, you'll need Git and Node.js (which comes with npm) installed on your computer. From your command line:
 
-#Clone this repository
+Clone this repository
+```
 $ git clone git@github.com:aanatema/romane_boireau_portfolio.git
-
-# Go into the repository
+```
+Go into the repository
+```
 $ cd romane_boireau_portfolio
-
-# Install dependencies
+```
+Install dependencies
+```
 $ npm install
-
-# Run the app
+```
+Run the app
+```
 $ npm start
+```
