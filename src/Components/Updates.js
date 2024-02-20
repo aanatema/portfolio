@@ -13,6 +13,15 @@ function UpdatesList() {
         </div>
 
         <div className="mt-5">
+        <h2 className="updates_date mt-5">20/02 - Mise à jour de la page d'accueil</h2>
+          <div className=" project_subtitle" style={{ fontSize: "1.05rem" }}>
+            <p>
+             - Changement du texte.
+             <br></br>
+             - Mise à jour du CV et du lien correspondant.
+            </p>
+          </div>
+
           <h2 className="updates_date mt-5">30/01 - Un brin de ménage</h2>
           <div className=" project_subtitle" style={{ fontSize: "1.05rem" }}>
             <p>
