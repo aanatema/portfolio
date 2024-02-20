@@ -13,7 +13,19 @@ function UpdatesList() {
         </div>
 
         <div className="mt-5">
-        <h2 className="updates_date mt-5">26/01 - Ajout de projet</h2>
+          <h2 className="updates_date mt-5">30/01 - Un brin de ménage</h2>
+          <div className=" project_subtitle" style={{ fontSize: "1.05rem" }}>
+            <p>
+              - Analyse de mes composants et redécoupage des éléments qui peuvent l'être afin de créer des composants plus clairs et mieux
+              organisés.
+              <br></br> - Renommage des composants, toujours dans l'optique
+              d'être plus claire.
+              <br></br> - Changement de nom des images.
+              <br></br>
+            </p>
+          </div>
+
+          <h2 className="updates_date mt-5">26/01 - Ajout de projet</h2>
           <div className=" project_subtitle" style={{ fontSize: "1.05rem" }}>
             <p>
               - Création de la card projet pour Spots & Potes.
@@ -23,13 +35,13 @@ function UpdatesList() {
               projet.
               <br></br>- Ajout du carousel d'image de Spots & Potes et du lien
               vers le projet sur github.
-              <br></br>
-              - L'onglet à propos devient "Patch Notes" et contient désormais la page updates.
+              <br></br>- L'onglet à propos devient "Patch Notes" et contient
+              désormais la page updates.
               <br></br>
             </p>
           </div>
 
-        <h2 className="updates_date mt-5">
+          <h2 className="updates_date mt-5">
             25/01 - Amélioration de l'accessibilité
           </h2>
           <div className=" project_subtitle" style={{ fontSize: "1.05rem" }}>
@@ -55,7 +67,6 @@ function UpdatesList() {
               <br></br>
             </p>
           </div>
-
         </div>
       </Container>
     </>

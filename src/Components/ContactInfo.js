@@ -4,23 +4,24 @@ import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import Form from "react-bootstrap/Form";
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import "../index.css";
 
 function ContactInfo() {
+  const form = useRef();
 
-    const form = useRef();
-  
-    const sendEmail = (e) => {
-      e.preventDefault();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-    emailjs.sendForm(
+    emailjs
+      .sendForm(
         "service_39lsro9",
         "template_8i7nqj7",
         form.current,
         "Q-vLiAGXssjwGb0gX"
-      ).then(
+      )
+      .then(
         (result) => {
           console.log(result.text);
         },
@@ -28,18 +29,19 @@ function ContactInfo() {
           console.log(error.text);
         }
       );
-      //permet de refresh le formulaire une fois celui ci envoyé
-      //onClick sur le bouton ne marche pas, il efface les données avant qu'elles aient pu être envoyées
-      form.current.reset()
+    //permet de refresh le formulaire une fois celui ci-envoyé
+    form.current.reset();
   };
   return (
     <Container>
       <h1 md={6} lg={6} className="mt-5 mb-3">
-        Envie d'échanger ? Laissez moi un message !
+        Envie d'échanger ou de me faire un retour ? Laissez moi un message :
       </h1>
+      {/* on fait appel aux constantes form et sendEmail déclarées ci-dessus*/}
       <Form ref={form} onSubmit={sendEmail}>
         <Row className="mt-5 g-2">
           <Col md>
+            {/* NOM */}
             <FloatingLabel
               controlId="floatingTextarea"
               label="Nom"
@@ -59,6 +61,7 @@ function ContactInfo() {
             </FloatingLabel>
           </Col>
           <Col md>
+            {/* PRENOM */}
             <FloatingLabel
               controlId="floatingTextarea"
               label="Prénom"
@@ -77,6 +80,7 @@ function ContactInfo() {
               </Form.Control.Feedback>
             </FloatingLabel>
           </Col>
+          {/* ADRESSE MAIL */}
           <FloatingLabel
             controlId="floatingInput"
             label="Adresse mail"
@@ -93,6 +97,7 @@ function ContactInfo() {
               Veuillez vérifier votre adresse mail.
             </Form.Control.Feedback>
           </FloatingLabel>
+          {/* TELEPHONE */}
           <FloatingLabel
             controlId="floatingTextarea"
             label="Numéro de téléphone"
@@ -109,6 +114,7 @@ function ContactInfo() {
               Veuillez vérifier votre numéro de téléphone
             </Form.Control.Feedback>
           </FloatingLabel>
+          {/* MESSAGE */}
           <FloatingLabel
             controlId="floatingTextarea"
             label="Votre message"
@@ -121,19 +127,24 @@ function ContactInfo() {
               name="user_message"
               style={{ height: "200px" }}
               as="textarea"
-              placeholder="Leave a comment here"
+              placeholder="Votre message"
             />
             <Form.Control.Feedback type="invalid">
               N'oubliez pas d'entrer votre message.
             </Form.Control.Feedback>
           </FloatingLabel>
         </Row>
-        <Button className="mt-2 mb-2" type="submit" value="Send" variant="warning">
+        {/* ENVOYER */}
+        <Button
+          className="mt-2 mb-2"
+          type="submit"
+          value="Send"
+          variant="warning"
+        >
           Envoyer
         </Button>
       </Form>
     </Container>
-  
   );
 }
 export default ContactInfo;
