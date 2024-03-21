@@ -4,9 +4,11 @@ import ListGroup from "react-bootstrap/ListGroup";
 function UpdatesList() {
   return (
     <>
-      <Container className="my-5 ">
+    {/* need to improve this part */}
+      <Container className="my-5">
+
         <div>
-          <h1 className="project_title mb-3">Dernières nouveautés</h1>
+          <h1 className="project_title mb-3" style={{textDecoration:"underline"}}>Dernières nouveautés</h1>
           <p className="project_subtitle" style={{ fontSize: "1.10rem" }}>
             Les changements sont affichés du plus récent au plus ancien.
           </p>

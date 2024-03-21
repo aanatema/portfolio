@@ -7,6 +7,7 @@ import cyc_result_17_option from "../Images/cyc_result_17_option.png";
 
 function CYCCarousel() {
   return (
+    // sets the color theme of the carousel + stop the slides from going forward on their own
     <Carousel  data-bs-theme="dark" slide={false} interval={null}>
        <Carousel.Item>
         <Image src={cyc_acceuil} alt="Page d'accueil" fluid />

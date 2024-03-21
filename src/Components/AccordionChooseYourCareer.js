@@ -10,11 +10,14 @@ import "../index.css";
 function AccordionChooseYourCareer() {
   return(
   <>
+  {/* holds all differents part of an accordeon */}
     <Container className="mt-5">
+      {/* title */}
       <div>
         <h1 className="project_title">CHOOSE YOUR CAREER</h1>
         <h2 className="project_subtitle">Projet de data visualisation</h2>
       </div>
+      {/* link to the project on github */}
       <Button
         className="me-4 mt-4 "
         href="https://github.com/aanatema/projet-collectif-dataviz-myriam-romane-bradley-mehdi"
@@ -25,9 +28,13 @@ function AccordionChooseYourCareer() {
       </Button>
 
       <Row className="mt-5">
+
+        {/* project carousel with pictures of the project */}
         <Col className="project_image mt-3" xs={12} sm={12} md={12} lg={5}>
           <CYCCarousel></CYCCarousel>
         </Col>
+
+      {/* holds the infos about the projects (time, goals, what could be better) */}
         <Col xs={12} sm={12} md={12} lg={7}>
           <Accordion className="accordion mb-5" flush defaultActiveKey="0">
             <Accordion.Item eventKey="0" className="accordion">
@@ -85,6 +92,8 @@ function AccordionChooseYourCareer() {
               </Accordion.Body>
             </Accordion.Item>
           </Accordion>
+
+          {/* button to go back to the previous project */}
           <Button
             className="mb-2 me-4 "
             href="/projects/spots_and_potes"
@@ -92,6 +101,7 @@ function AccordionChooseYourCareer() {
           >
             Projet précédant
           </Button>
+          {/* button to go to the next project */}
           <Button
             className="mb-2 "
             href="/projects/kind_glyphs"
@@ -99,11 +109,14 @@ function AccordionChooseYourCareer() {
           >
             Projet suivant
           </Button>
+
+          {/* to return to the "all project" page */}
           <Row>
             <Col className="">
               <ReturnProjectButton></ReturnProjectButton>
             </Col>
           </Row>
+
         </Col>
       </Row>
     </Container>

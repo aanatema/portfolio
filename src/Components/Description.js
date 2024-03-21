@@ -8,7 +8,9 @@ import "../index.css";
 
 function Description() {
   return (
+    // need to check if i can use better html elements
     <Container className="mt-5" style={{ color: "#cdcfce" }}>
+
       <div id="intro">
         <h2>
           Développeuse Web Junior en recherche d'une alternance Front ou Full

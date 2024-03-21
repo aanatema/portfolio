@@ -9,12 +9,15 @@ import emailjs from "@emailjs/browser";
 import "../index.css";
 
 function ContactInfo() {
+  // useRef() stores values without re-rendering 
+  // (need to find if it's the best way to do this since we need to clear the form after the mail has been sent)
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
+    // allows me to use emailJS
       .sendForm(
         "service_39lsro9",
         "template_8i7nqj7",
@@ -33,13 +36,16 @@ function ContactInfo() {
     form.current.reset();
   };
   return (
+
     <Container>
       <h1 md={6} lg={6} className="mt-5 mb-3">
         Envie d'échanger ou de me faire un retour ? Laissez moi un message :
       </h1>
       {/* on fait appel aux constantes form et sendEmail déclarées ci-dessus*/}
       <Form ref={form} onSubmit={sendEmail}>
+
         <Row className="mt-5 g-2">
+
           <Col md>
             {/* NOM */}
             <FloatingLabel
@@ -61,6 +67,7 @@ function ContactInfo() {
             </FloatingLabel>
           </Col>
           <Col md>
+
             {/* PRENOM */}
             <FloatingLabel
               controlId="floatingTextarea"
@@ -80,6 +87,7 @@ function ContactInfo() {
               </Form.Control.Feedback>
             </FloatingLabel>
           </Col>
+
           {/* ADRESSE MAIL */}
           <FloatingLabel
             controlId="floatingInput"
@@ -97,6 +105,7 @@ function ContactInfo() {
               Veuillez vérifier votre adresse mail.
             </Form.Control.Feedback>
           </FloatingLabel>
+
           {/* TELEPHONE */}
           <FloatingLabel
             controlId="floatingTextarea"
@@ -114,6 +123,7 @@ function ContactInfo() {
               Veuillez vérifier votre numéro de téléphone
             </Form.Control.Feedback>
           </FloatingLabel>
+
           {/* MESSAGE */}
           <FloatingLabel
             controlId="floatingTextarea"
@@ -134,6 +144,7 @@ function ContactInfo() {
             </Form.Control.Feedback>
           </FloatingLabel>
         </Row>
+
         {/* ENVOYER */}
         <Button
           className="mt-2 mb-2"
