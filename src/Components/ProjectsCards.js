@@ -6,7 +6,7 @@ import Badge from "react-bootstrap/Badge";
 import Stack from "react-bootstrap/Stack";
 
 function Cards() {
-  //tableau d'objects contenant les informations sur les différents projets
+  //array with all infos about each projects
   const cardData = [
     {
       title: "PORTFOLIO",
